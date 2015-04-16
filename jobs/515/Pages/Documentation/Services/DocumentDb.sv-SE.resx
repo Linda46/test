@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Featured_Heading" xml:space="preserve">
+    <value>Aktuella artiklar</value>
+  </data>
+  <data name="Hero_Content" xml:space="preserve">
+    <value>&lt;p&gt;Dokumentationen och självstudierna här hjälper dig att komma igång med denna fullständigt hanterade NoSQL-dokumentdatabas-som-tjänst. Du kan snabbt skapa och använda schemafria databaser och utveckla .NET-, Node.js-, Java-, Javascript- eller Python-program med robusta kodexempel. Du får tillgång till dina data med RESTful HTTP-gränssnittet och till vår spelplan där du kan köra frågor mot realtidsdata.&lt;/p&gt;</value>
+  </data>
+  <data name="Hero_Heading" xml:space="preserve">
+    <value>Dokumentation om DocumentDB {0}</value>
+    <comment>0 is preview tag</comment>
+  </data>
+  <data name="Hero_SubHeading" xml:space="preserve">
+    <value>Lär dig att använda den här fullständigt hanterade, skalbara NoSQL-dokumentdatabastjänsten</value>
+  </data>
+  <data name="MoreResources_Heading" xml:space="preserve">
+    <value>Behöver du mer resurser?</value>
+  </data>
+  <data name="QuickLinks_Heading" xml:space="preserve">
+    <value>Snabblänkar</value>
+  </data>
+  <data name="QuickLink_1" xml:space="preserve">
+    <value>Prova DocumentDB nu</value>
+  </data>
+  <data name="QuickLink_2" xml:space="preserve">
+    <value>Gå till vår spelplan för att köra SQL-frågor i DocumentDB</value>
+  </data>
+  <data name="QuickLink_3" xml:space="preserve">
+    <value>Prisinformation för DocumentDB</value>
+  </data>
+  <data name="Resource1_Content" xml:space="preserve">
+    <value>Azure-lösningar för hantering av dina data</value>
+  </data>
+  <data name="Resource1_Heading" xml:space="preserve">
+    <value>Lösningar</value>
+  </data>
+  <data name="Resource2_Content" xml:space="preserve">
+    <value>.NET, Node.js, REST, SQL och andra referenser för DocumentDB</value>
+  </data>
+  <data name="Resource2_Heading" xml:space="preserve">
+    <value>Referensdokument</value>
+  </data>
+  <data name="Resource3_Content" xml:space="preserve">
+    <value>Ställ frågor, dela med dig av dina insikter och diskutera plattformen.</value>
+  </data>
+  <data name="Resource3_Heading" xml:space="preserve">
+    <value>Forum</value>
+  </data>
+  <data name="Resource_Whitepaper_Content" xml:space="preserve">
+    <value>David Chappell presenterar DocumentDB</value>
+  </data>
+  <data name="Resource_Whitepaper_Heading" xml:space="preserve">
+    <value>Dokumentation</value>
+  </data>
+  <data name="Explore_Heading_Intro" xml:space="preserve">
+    <value>Tjänstöversikt</value>
+  </data>
+  <data name="Explore_Heading" xml:space="preserve">
+    <value>Utforska</value>
+  </data>
+  <data name="Featured_CreateAccount" xml:space="preserve">
+    <value>Skapa ett databaskonto</value>
+  </data>
+  <data name="Featured_GetStarted" xml:space="preserve">
+    <value>Kom igång med DocumentDB .NET SDK</value>
+  </data>
+  <data name="Manage_Heading" xml:space="preserve">
+    <value>Hantera</value>
+  </data>
+  <data name="Manage_Heading_Manage" xml:space="preserve">
+    <value>Hantera kapacitet och prestanda för DocumentDB</value>
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Dokumentation om DocumentDB | Azure</value>
+  </data>
+  <data name="Develop_Heading_DOTNET" xml:space="preserve">
+    <value>Utveckla ett ASP.NET-program med DocumentDB</value>
+  </data>
+  <data name="Develop_SubHeading_DOTNET" xml:space="preserve">
+    <value>&lt;p&gt;Den här guiden ger dig stegvisa instruktioner för hur du utvecklar ett ASP.NET-program med DocumentDB.&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading_Nodejs" xml:space="preserve">
+    <value>Utveckla ett Node.js-program med DocumentDB</value>
+  </data>
+  <data name="Develop_SubHeading_Nodejs" xml:space="preserve">
+    <value>&lt;p&gt;Den här guiden ger dig stegvisa instruktioner för hur du utvecklar ett Node.js-program med DocumentDB.&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading_Python" xml:space="preserve">
+    <value>Utveckla ett Python-program med DocumentDB</value>
+  </data>
+  <data name="Develop_SubHeading_Python" xml:space="preserve">
+    <value>&lt;p&gt;Den här guiden ger dig stegvisa instruktioner för hur du utvecklar ett Python-program med DocumentDB.&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading" xml:space="preserve">
+    <value>Utveckla</value>
+  </data>
+  <data name="Explore_SubHeading_Intro" xml:space="preserve">
+    <value>&lt;p&gt;Få en översikt av de funktioner och fördelar som DocumentDB ger dina webbprogram och mobilappar.&lt;/p&gt;</value>
+  </data>
+  <data name="Explore_Heading_CreateAccount" xml:space="preserve">
+    <value>Skapa ett databaskonto</value>
+  </data>
+  <data name="Explore_SubHeading_CreateAccount" xml:space="preserve">
+    <value>&lt;p&gt;Skapa ett konto i Azure Preview-portalen och välj databasinställningar för DocumentDB.&lt;/p&gt;</value>
+  </data>
+  <data name="Explore_Heading_GetStarted" xml:space="preserve">
+    <value>Kom igång med DocumentDB</value>
+  </data>
+  <data name="Explore_SubHeading_GetStarted" xml:space="preserve">
+    <value>&lt;p&gt;Lär dig hur du konfigurerar ett DocumentDB-konto, skapar databaser, skapar samlingar och lagrar JSON-dokument.&lt;/p&gt;</value>
+  </data>
+  <data name="Explore_Heading_Query" xml:space="preserve">
+    <value>Fråga DocumentDB</value>
+  </data>
+  <data name="Explore_SubHeading_Query" xml:space="preserve">
+    <value>&lt;p&gt;Skriv frågor för din DocumentDB-databas i SQL. DocumentDB-indexet spårar automatiskt dokumentegenskaper och kräver inte den administration som medföljer indexhantering.&lt;/p&gt;</value>
+  </data>
+  <data name="Manage_SubHeading_Manage" xml:space="preserve">
+    <value>&lt;p&gt;Lär dig hantera ditt DocumentDB-konto med Azure Preview-portalen.&lt;/p&gt;</value>
+  </data>
+  <data name="Manage_Heading_Monitor" xml:space="preserve">
+    <value>Övervaka ett DocumentDB-konto</value>
+  </data>
+  <data name="Manage_SubHeading_Monitor" xml:space="preserve">
+    <value>&lt;p&gt;Lär dig övervaka användningen av ditt DocumentDB-konto med Azure Preview-portalen.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading_DOTNET_SDK" xml:space="preserve">
+    <value>.NET SDK-referens</value>
+  </data>
+  <data name="Reference_SubHeading_DOTNET_SDK" xml:space="preserve">
+    <value>&lt;p&gt;Referensdokumentation för det .NET-API som stöds av DocumentDB.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading_Nodejs" xml:space="preserve">
+    <value>Node.js SDK-referens</value>
+  </data>
+  <data name="Reference_SubHeading_Nodejs" xml:space="preserve">
+    <value>&lt;p&gt;Referensdokumentation för det Node.js-API som stöds av DocumentDB.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading_ClientJS" xml:space="preserve">
+    <value>JavaScript-referens för klientsidan</value>
+  </data>
+  <data name="Reference_SubHeading_ClientJS" xml:space="preserve">
+    <value>&lt;p&gt;Referensdokumentation för det JavaScript-API för klientsidan som stöds av DocumentDB.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading_Python" xml:space="preserve">
+    <value>Python SDK-referens</value>
+  </data>
+  <data name="Reference_SubHeading_Python" xml:space="preserve">
+    <value>&lt;p&gt;Referensdokumentation för det Python-API som stöds av DocumentDB.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading" xml:space="preserve">
+    <value>Referenser</value>
+  </data>
+  <data name="TutorialsGuides_Heading" xml:space="preserve">
+    <value>Självstudier och guider</value>
+  </data>
+  <data name="Explore_Heading_FAQ" xml:space="preserve">
+    <value>Vanliga frågor och svar</value>
+  </data>
+  <data name="Explore_Heading_Interact" xml:space="preserve">
+    <value>Interagera med DocumentDB-resurser</value>
+  </data>
+  <data name="Explore_SubHeading_FAQ" xml:space="preserve">
+    <value>&lt;p&gt;Svar på dina frågor om DocumentDB-databastjänsten på Azure. Lär dig vad kapacitets- och begäransenheter är, och förstå hur du skalar DocumentDB efter vad ditt program behöver.&lt;/p&gt;</value>
+  </data>
+  <data name="Explore_SubHeading_Interact" xml:space="preserve">
+    <value>&lt;p&gt;Läs en teknisk översikt om hur du interagerar med DocumentDB RESTful-resurser över HTTP-verb.&lt;/p&gt;</value>
+  </data>
+  <data name="Featured_Introduction" xml:space="preserve">
+    <value>Introduktion till DocumentDB</value>
+  </data>
+  <data name="Plan_Subheading_Resources" xml:space="preserve">
+    <value>&lt;p&gt;Lär dig om varje DocumentDB-resursmodell och hur resurserna hänger ihop.&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Subheading_Consistency" xml:space="preserve">
+    <value>&lt;p&gt;Lär dig hur du kan balansera databaskonsekvens och prestanda med DocumentDB.&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Subheading_Limits" xml:space="preserve">
+    <value>&lt;p&gt;Lär dig om tjänstkvot och begränsningar för ett DocumentDB-konto.&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Heading" xml:space="preserve">
+    <value>Planera</value>
+  </data>
+  <data name="Plan_Heading_Resources" xml:space="preserve">
+    <value>DocumentDB-resursmodell och koncept</value>
+  </data>
+  <data name="Plan_Heading_Consistency" xml:space="preserve">
+    <value>Konsekvensnivåer i DocumentDB</value>
+  </data>
+  <data name="Plan_Heading_Limits" xml:space="preserve">
+    <value>DocumentDB-resursgränser och kvoter</value>
+  </data>
+  <data name="Reference_Heading_REST" xml:space="preserve">
+    <value>REST API-referens</value>
+  </data>
+  <data name="Reference_Heading_ServerJS" xml:space="preserve">
+    <value>JavaScript-referens för serversidan</value>
+  </data>
+  <data name="Reference_Heading_SQLRef" xml:space="preserve">
+    <value>DocumentDB SQL-referens</value>
+  </data>
+  <data name="Reference_SubHeading_REST" xml:space="preserve">
+    <value>&lt;p&gt;Referensdokumentation för det REST-API som stöds av DocumentDB. Innehåller information om HTTP-fel.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_SubHeading_ServerJS" xml:space="preserve">
+    <value>&lt;p&gt;Referensdokumentation för det JavaScript-API för serversidan som stöds av DocumentDB.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_SubHeading_SQLRef" xml:space="preserve">
+    <value>&lt;p&gt;Referensdokumentation för att skriva frågor till DocumentDB-databaser i SQL.&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading_Programming" xml:space="preserve">
+    <value>DocumentDB-programmering: Lagrade procedurer, utlösare och användardefinierade funktioner</value>
+  </data>
+  <data name="Develop_SubHeading_Programming" xml:space="preserve">
+    <value>&lt;p&gt;Den här guiden ger utvecklare en noggrann genomgång av hur de registrerar och kör lagrade procedurer, utlösare och användardefinierade funktioner.&lt;/p&gt;</value>
+  </data>
+  <data name="Featured_Learning" xml:space="preserve">
+    <value>Inlärningsguide för DocumentDB</value>
+  </data>
+  <data name="Develop_Heading_DOTNETSamples" xml:space="preserve">
+    <value>DocumentDB .NET-kodexempel</value>
+  </data>
+  <data name="Develop_Subheading_DOTNETSamples" xml:space="preserve">
+    <value>&lt;p&gt;Använd dessa exampel och läs om hur du använder .NET Client SDK för att interagera med Azure DocumentDB-tjänsten.&lt;/p&gt;</value>
+  </data>
+  <data name="Manage_Heading_ManageAccount" xml:space="preserve">
+    <value>Hantera ett DocumentDB-konto</value>
+  </data>
+  <data name="Manage_Subheading_ManageAccount" xml:space="preserve">
+    <value>&lt;p&gt;Läs om hur du hanterar ett DocumentDB-konto, inklusive arbetar med åtkomstnycklar, konsekvensinställningar och kapacitetsinställningar. &lt;/p&gt;</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value>Dokumentation och självstudier som hjälper dig att använda Azure DocumentDB, en NoSQL-tjänst, bygga program som frågar efter och lagrar JSON-data med Javascript.</value>
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Videos_Cta" xml:space="preserve">
+    <value>Visa fler DocumentDB-videor</value>
+  </data>
+  <data name="Videos_Heading" xml:space="preserve">
+    <value>Videor</value>
+  </data>
+  <data name="Develop_Heading_JAVA" xml:space="preserve">
+    <value>Utveckla ett Java-program med DocumentDB</value>
+  </data>
+  <data name="Develop_SubHeading_JAVA" xml:space="preserve">
+    <value>&lt;p&gt;Den här självstudien visar hur du använder Azure DocumentDB-tjänsten för att lagra och komma åt data från ett Java-program som har Azure Websites som värd.&lt;/p&gt;</value>
+  </data>
+  <data name="Explore_Heading_INDEXING" xml:space="preserve">
+    <value>Så fungerar indexering</value>
+  </data>
+  <data name="Explore_SubHeading_INDEXING" xml:space="preserve">
+    <value>&lt;p&gt;Lär dig hur indexering fungerar i DocumentDB och hur du konfigurerar indexeringsprincipen.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading_JAVA_SDK" xml:space="preserve">
+    <value>Java SDK-referens</value>
+  </data>
+  <data name="Reference_SubHeading_JAVA_SDK" xml:space="preserve">
+    <value>&lt;p&gt;Referensdokumentation för det Java-API som stöds av DocumentDB.&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading_Hadoop" xml:space="preserve">
+    <value>Kör ett Hadoop-jobb med DocumentDB och HDInsight</value>
+  </data>
+  <data name="Develop_Heading_ResManager" xml:space="preserve">
+    <value>Distribuera DocumentDB och en Azure-webbplats med en Azure Resource Manager-mall</value>
+  </data>
+  <data name="Develop_SubHeading_Hadoop" xml:space="preserve">
+    <value>&lt;p&gt;Självstudie som visar hur du kör Apache Hive-, Apache Pig- och Apache Hadoop MapReduce-jobb på Azure HDInsight med DocumentDB Hadoop-anslutningsprogrammet. Vi använder DocumentDB för såväl datakällan som målplatsen för Hadoop-jobb.&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_SubHeading_ResManager" xml:space="preserve">
+    <value>&lt;p&gt;Självstudie som visar hur du använder en mall för att distribuera och integrera DocumentDB, en Azure-webbplats och ett exempelwebbprogram.&lt;/p&gt;</value>
+  </data>
+  <data name="Manage_Heading_DocExplorer" xml:space="preserve">
+    <value>Visa, redigera, skapa och överför JSON-dokument med DocumentDB Document Explorer</value>
+  </data>
+  <data name="Manage_Heading_QueryExplorer" xml:space="preserve">
+    <value>Skapa, redigera och kör SQL-frågor mot en DocumentDB-samling med Query Explorer</value>
+  </data>
+  <data name="Manage_SubHeading_DocExplorer" xml:space="preserve">
+    <value>&lt;p&gt;Självstudie över hur du visar, redigerar, skapar och överför JSON-dokument med DocumentDB.&lt;/p&gt;</value>
+  </data>
+  <data name="Manage_SubHeading_QueryExplorer" xml:space="preserve">
+    <value>&lt;p&gt;Självstudie över hur du kör SQL-frågor mot en DocumentDB-samling. Innehåller information om hur du navigerar resultat via en webbläsare och hur du felsöker syntaxfel.&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading_Indexer" xml:space="preserve">
+    <value>Ansluta DocumentDB med Azure Search med indexerare</value>
+  </data>
+  <data name="Develop_SubHeading_Indexer" xml:space="preserve">
+    <value>&lt;p&gt;Steg-för-steg-information om hur du integrerar Azure DocumentDB med Azure Search utan att behöva skriva kod för att behålla indexeringsinfrastrukturen.&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Heading_Model" xml:space="preserve">
+    <value>Modellera data i DocumentDB</value>
+  </data>
+  <data name="Plan_Heading_Partition" xml:space="preserve">
+    <value>Partitionera data i DocumentDB</value>
+  </data>
+  <data name="Plan_Heading_Secure" xml:space="preserve">
+    <value>Skydda åtkomst till DocumentDB-data</value>
+  </data>
+  <data name="Plan_Subheading_Model" xml:space="preserve">
+    <value>&lt;p&gt;Saker att tänka på vid modellering av data, inklusive datainbäddning, referensdata och hybriddatamodeller.&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Subheading_Partition" xml:space="preserve">
+    <value>&lt;p&gt;Saker att tänka på vid partitionering av data, inklusive samlingar, typer av partitionering (intervall, sökning, hash) och utveckling av ett partitionerat program.&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Subheading_Secure" xml:space="preserve">
+    <value>&lt;p&gt;Översikt över åtkomstkontrollkoncept för DocumentDB, samt information om huvudnycklar och skrivskyddade nycklar, resurstokens och behörigheter. Innefattar kodavsitt.&lt;/p&gt;</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>Förhandsversion</value>
+  </data>
+</root>

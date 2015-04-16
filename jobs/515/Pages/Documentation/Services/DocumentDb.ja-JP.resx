@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Featured_Heading" xml:space="preserve">
+    <value>おすすめの記事</value>
+  </data>
+  <data name="Hero_Content" xml:space="preserve">
+    <value>&lt;p&gt;このドキュメントとチュートリアルによって、完全に管理されたサービスとしての NoSQL ドキュメント データベースの使用を開始します。スキーマフリーなデータベースを迅速に作成して照会を実行したり、信頼性の高いコード サンプルを使用して .NET、Node.js、Java、Javascript、Python のアプリを開発したり、RESTful HTTP インターフェイスを使用してデータにアクセスしたり、Playground でライブ データに対して照会を実行したりします。&lt;/p&gt;</value>
+  </data>
+  <data name="Hero_Heading" xml:space="preserve">
+    <value>DocumentDB のドキュメント {0}</value>
+    <comment>0 is preview tag</comment>
+  </data>
+  <data name="Hero_SubHeading" xml:space="preserve">
+    <value>完全に管理された、スケーラブルな NoSQL ドキュメント データベース サービスの使用法について説明します</value>
+  </data>
+  <data name="MoreResources_Heading" xml:space="preserve">
+    <value>その他のリソース</value>
+  </data>
+  <data name="QuickLinks_Heading" xml:space="preserve">
+    <value>クイック リンク</value>
+  </data>
+  <data name="QuickLink_1" xml:space="preserve">
+    <value>DocumentDB を今すぐ試す</value>
+  </data>
+  <data name="QuickLink_2" xml:space="preserve">
+    <value>Playground に移動して DocumentDB で SQL クエリを試す</value>
+  </data>
+  <data name="QuickLink_3" xml:space="preserve">
+    <value>DocumentDB の料金詳細</value>
+  </data>
+  <data name="Resource1_Content" xml:space="preserve">
+    <value>データを管理するための Azure ソリューション</value>
+  </data>
+  <data name="Resource1_Heading" xml:space="preserve">
+    <value>ソリューション</value>
+  </data>
+  <data name="Resource2_Content" xml:space="preserve">
+    <value>.NET、Node.js、REST、SQL、およびその他の DocumentDB のリファレンス</value>
+  </data>
+  <data name="Resource2_Heading" xml:space="preserve">
+    <value>リファレンス ドキュメント</value>
+  </data>
+  <data name="Resource3_Content" xml:space="preserve">
+    <value>プラットフォームについて質問したり、情報を共有したり、意見を交わしたりする。</value>
+  </data>
+  <data name="Resource3_Heading" xml:space="preserve">
+    <value>フォーラム</value>
+  </data>
+  <data name="Resource_Whitepaper_Content" xml:space="preserve">
+    <value>David Chappell 氏による DocumentDB の紹介</value>
+  </data>
+  <data name="Resource_Whitepaper_Heading" xml:space="preserve">
+    <value>ホワイトペーパー:</value>
+  </data>
+  <data name="Explore_Heading_Intro" xml:space="preserve">
+    <value>サービスの概要</value>
+  </data>
+  <data name="Explore_Heading" xml:space="preserve">
+    <value>さらに詳しく</value>
+  </data>
+  <data name="Featured_CreateAccount" xml:space="preserve">
+    <value>データベース アカウントの作成</value>
+  </data>
+  <data name="Featured_GetStarted" xml:space="preserve">
+    <value>DocumentDB .NET SDK を使ってみる</value>
+  </data>
+  <data name="Manage_Heading" xml:space="preserve">
+    <value>管理</value>
+  </data>
+  <data name="Manage_Heading_Manage" xml:space="preserve">
+    <value>DocumentDB の容量とパフォーマンスの管理</value>
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>DocumentDB ドキュメント | Azure</value>
+  </data>
+  <data name="Develop_Heading_DOTNET" xml:space="preserve">
+    <value>DocumentDB を使用した ASP.NET アプリケーションの開発</value>
+  </data>
+  <data name="Develop_SubHeading_DOTNET" xml:space="preserve">
+    <value>&lt;p&gt;このガイドでは、DocumentDB を使用した ASP.NET アプリケーションの開発方法について詳しく説明します。&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading_Nodejs" xml:space="preserve">
+    <value>DocumentDB を使用した Node.js アプリケーションの開発</value>
+  </data>
+  <data name="Develop_SubHeading_Nodejs" xml:space="preserve">
+    <value>&lt;p&gt;このガイドでは、DocumentDB を使用した Node.js アプリケーションの開発方法について詳しく説明します。&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading_Python" xml:space="preserve">
+    <value>DocumentDB を使用した Python アプリケーションの開発</value>
+  </data>
+  <data name="Develop_SubHeading_Python" xml:space="preserve">
+    <value>&lt;p&gt;このガイドでは、DocumentDB を使用した Python アプリケーションの開発方法について詳しく説明します。&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading" xml:space="preserve">
+    <value>開発</value>
+  </data>
+  <data name="Explore_SubHeading_Intro" xml:space="preserve">
+    <value>&lt;p&gt;Web アプリケーションとモバイル アプリケーションに対して DocumentDB が提供する機能と利点の概要を示します。&lt;/p&gt;</value>
+  </data>
+  <data name="Explore_Heading_CreateAccount" xml:space="preserve">
+    <value>データベース アカウントの作成</value>
+  </data>
+  <data name="Explore_SubHeading_CreateAccount" xml:space="preserve">
+    <value>&lt;p&gt;Azure のプレビュー ポータルでアカウントを作成して DocumentDB のデータベース設定を選択します。&lt;/p&gt;</value>
+  </data>
+  <data name="Explore_Heading_GetStarted" xml:space="preserve">
+    <value>DocumentDB の概要</value>
+  </data>
+  <data name="Explore_SubHeading_GetStarted" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB アカウントの構成、データベースの作成、コレクションの作成、および JSON ドキュメントの保存の方法について説明します。&lt;/p&gt;</value>
+  </data>
+  <data name="Explore_Heading_Query" xml:space="preserve">
+    <value>DocumentDB のクエリ</value>
+  </data>
+  <data name="Explore_SubHeading_Query" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB データベースを SQL でクエリします。DocumentDB インデックスはドキュメントのプロパティを自動的に追跡します。インデックス管理によるオーバーヘッドは発生しません。&lt;/p&gt;</value>
+  </data>
+  <data name="Manage_SubHeading_Manage" xml:space="preserve">
+    <value>&lt;p&gt;Azure のプレビュー ポータルを使用して DocumentDB アカウントを管理する方法について説明します。&lt;/p&gt;</value>
+  </data>
+  <data name="Manage_Heading_Monitor" xml:space="preserve">
+    <value>DocumentDB アカウントの監視</value>
+  </data>
+  <data name="Manage_SubHeading_Monitor" xml:space="preserve">
+    <value>&lt;p&gt;Azure のプレビュー ポータルを使用して DocumentDB アカウントの使用を監視する方法を説明します。&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading_DOTNET_SDK" xml:space="preserve">
+    <value>.NET SDK のリファレンス</value>
+  </data>
+  <data name="Reference_SubHeading_DOTNET_SDK" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB がサポートする .NET API に関するリファレンス ドキュメント。&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading_Nodejs" xml:space="preserve">
+    <value>Node.js SDK のリファレンス</value>
+  </data>
+  <data name="Reference_SubHeading_Nodejs" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB がサポートする Node.js API に関するリファレンス ドキュメント。&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading_ClientJS" xml:space="preserve">
+    <value>クライアント側 JavaScript のリファレンス</value>
+  </data>
+  <data name="Reference_SubHeading_ClientJS" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB がサポートするクライアント側 JavaScript API に関するリファレンス ドキュメント。&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading_Python" xml:space="preserve">
+    <value>Python SDK のリファレンス</value>
+  </data>
+  <data name="Reference_SubHeading_Python" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB がサポートする Python API に関するリファレンス ドキュメント。&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading" xml:space="preserve">
+    <value>リファレンス</value>
+  </data>
+  <data name="TutorialsGuides_Heading" xml:space="preserve">
+    <value>チュートリアルとガイド</value>
+  </data>
+  <data name="Explore_Heading_FAQ" xml:space="preserve">
+    <value>よく寄せられる質問</value>
+  </data>
+  <data name="Explore_Heading_Interact" xml:space="preserve">
+    <value>DocumentDB リソースとのやり取り</value>
+  </data>
+  <data name="Explore_SubHeading_FAQ" xml:space="preserve">
+    <value>&lt;p&gt;Azure の DocumentDB データベース サービスに関する質問への回答。機能および要求単位について説明し、アプリケーションのニーズに対して DocumentDB を拡張する方法について理解します。&lt;/p&gt;</value>
+  </data>
+  <data name="Explore_SubHeading_Interact" xml:space="preserve">
+    <value>&lt;p&gt;HTTP 動詞を使って DocumentDB RESTful リソースとやり取りする方法の技術的概要について説明します。&lt;/p&gt;</value>
+  </data>
+  <data name="Featured_Introduction" xml:space="preserve">
+    <value>DocumentDB 入門</value>
+  </data>
+  <data name="Plan_Subheading_Resources" xml:space="preserve">
+    <value>&lt;p&gt;各 DocumentDB リソース モデルについて、またそれらリソースの相互関係について説明します。&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Subheading_Consistency" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB を使用してデータベースの一貫性とパフォーマンスのバランスを取る方法を説明します。&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Subheading_Limits" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB アカウントに割り当てられるサービス クォータと制限について説明します。&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Heading" xml:space="preserve">
+    <value>計画</value>
+  </data>
+  <data name="Plan_Heading_Resources" xml:space="preserve">
+    <value>DocumentDB リソース モデルと概念</value>
+  </data>
+  <data name="Plan_Heading_Consistency" xml:space="preserve">
+    <value>DocumentDB の一貫性のレベル</value>
+  </data>
+  <data name="Plan_Heading_Limits" xml:space="preserve">
+    <value>DocumentDB リソースの制限とクォータ</value>
+  </data>
+  <data name="Reference_Heading_REST" xml:space="preserve">
+    <value>REST API のリファレンス</value>
+  </data>
+  <data name="Reference_Heading_ServerJS" xml:space="preserve">
+    <value>サーバー側 JavaScript のリファレンス</value>
+  </data>
+  <data name="Reference_Heading_SQLRef" xml:space="preserve">
+    <value>DocumentDB SQL のリファレンス</value>
+  </data>
+  <data name="Reference_SubHeading_REST" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB がサポートする REST API のドキュメントを参照します。HTTP エラーについての情報を含みます。&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_SubHeading_ServerJS" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB がサポートするサーバー側 JavaScript API に関するリファレンス ドキュメント。&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_SubHeading_SQLRef" xml:space="preserve">
+    <value>&lt;p&gt;SQL を使用した DocumentDB データベースのクエリに関するリファレンス ドキュメント。&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading_Programming" xml:space="preserve">
+    <value>DocumentDB のプログラミング: ストアド プロシージャ、トリガー、ユーザー定義関数 (UDF)</value>
+  </data>
+  <data name="Develop_SubHeading_Programming" xml:space="preserve">
+    <value>&lt;p&gt;このガイドでは、ストアド プロシージャ、トリガー、ユーザー定義関数 (UDF) を登録して実行する方法について開発者向けに説明します。&lt;/p&gt;</value>
+  </data>
+  <data name="Featured_Learning" xml:space="preserve">
+    <value>DocumentDB のラーニング ガイド</value>
+  </data>
+  <data name="Develop_Heading_DOTNETSamples" xml:space="preserve">
+    <value>DocumentDB の .NET コードのサンプル</value>
+  </data>
+  <data name="Develop_Subheading_DOTNETSamples" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB の .NET コードのサンプルを使って、Azure DocumentDB サービスとやり取りするために .NET クライアント SDK を使用する方法について説明します。&lt;/p&gt;</value>
+  </data>
+  <data name="Manage_Heading_ManageAccount" xml:space="preserve">
+    <value>DocumentDB アカウントの管理</value>
+  </data>
+  <data name="Manage_Subheading_ManageAccount" xml:space="preserve">
+    <value>&lt;p&gt;アクセス キーを使った操作、整合性の設定、容量の設定など、DocumentDB アカウントの管理方法について説明します。 &lt;/p&gt;</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value>ドキュメントとチュートリアルを使用すると、Azure DocumentDB という NoSQL サービスを使用して、Javascript によって JSON データをクエリおよび格納するアプリケーションを作成するのに役立ちます。</value>
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Videos_Cta" xml:space="preserve">
+    <value>その他の DocumentDB ビデオの表示</value>
+  </data>
+  <data name="Videos_Heading" xml:space="preserve">
+    <value>ビデオ</value>
+  </data>
+  <data name="Develop_Heading_JAVA" xml:space="preserve">
+    <value>DocumentDB を使用した Java アプリケーションの開発</value>
+  </data>
+  <data name="Develop_SubHeading_JAVA" xml:space="preserve">
+    <value>&lt;p&gt;このチュートリルは、Azure DocumentDB サービスを使用して、Azure Websites でホストされる Java アプリケーションからデータを格納したりアクセスしたりする方法を示しています。&lt;/p&gt;</value>
+  </data>
+  <data name="Explore_Heading_INDEXING" xml:space="preserve">
+    <value>インデックス作成の動作方法</value>
+  </data>
+  <data name="Explore_SubHeading_INDEXING" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB でインデックス作成が動作する方法とインデックス作成ポリシーの構成方法について説明します。&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading_JAVA_SDK" xml:space="preserve">
+    <value>Java SDK リファレンス</value>
+  </data>
+  <data name="Reference_SubHeading_JAVA_SDK" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB がサポートする Java API のドキュメントを参照します。&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading_Hadoop" xml:space="preserve">
+    <value>DocumentDB と HDInsight を使用して Hadoop のジョブを実行する</value>
+  </data>
+  <data name="Develop_Heading_ResManager" xml:space="preserve">
+    <value>Azure Resource Manager テンプレートを使用して DocumentDB と Azure Web サイトを展開する</value>
+  </data>
+  <data name="Develop_SubHeading_Hadoop" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB Hadoop Connector を使用して Azure HDInsight で Apache Hive、Apache Pig、および Apache Hadoop MapReduce ジョブを実行する方法を示すチュートリアルです。DocumentDB は、Hadoop ジョブの実行元のデータと実行対象のデータの両方に使用します。&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_SubHeading_ResManager" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB、Azure Web サイト、およびサンプルの Web アプリケーションを展開し、統合するテンプレートの使用方法を示すチュートリアルです。&lt;/p&gt;</value>
+  </data>
+  <data name="Manage_Heading_DocExplorer" xml:space="preserve">
+    <value>DocumentDB ドキュメント エクスプローラーを使用して JSON ドキュメントを表示、編集、作成、およびアップロードする</value>
+  </data>
+  <data name="Manage_Heading_QueryExplorer" xml:space="preserve">
+    <value>Query Explorer を使用して、DocumentDB コレクションに対して SQL クエリを作成、編集、および実行します。</value>
+  </data>
+  <data name="Manage_SubHeading_DocExplorer" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB を使用して JSON ドキュメントを表示、編集、作成、およびアップロードする方法を示すチュートリアルです。&lt;/p&gt;</value>
+  </data>
+  <data name="Manage_SubHeading_QueryExplorer" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB コレクションに対して SQL クエリを実行する方法を示すチュートリアルです。ブラウザー経由で結果を移動する方法と、構文エラーのトラブルシューティング方法が記載されています。&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading_Indexer" xml:space="preserve">
+    <value>インデクサーを使って DocumentDB を Azure Search に接続する</value>
+  </data>
+  <data name="Develop_SubHeading_Indexer" xml:space="preserve">
+    <value>&lt;p&gt;コードを書くことなくインデックス作成のインフラストラクチャを保持し、Azure DocumentDB を Azure Search と統合するためのステップ バイ ステップの手順を示します。&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Heading_Model" xml:space="preserve">
+    <value>DocumentDB でのデータのモデル作成</value>
+  </data>
+  <data name="Plan_Heading_Partition" xml:space="preserve">
+    <value>DocumentDB でのデータのパーティション分割</value>
+  </data>
+  <data name="Plan_Heading_Secure" xml:space="preserve">
+    <value>DocumentDB データへのアクセスのセキュリティ保護</value>
+  </data>
+  <data name="Plan_Subheading_Model" xml:space="preserve">
+    <value>&lt;p&gt;データのモデル作成に関する考慮点 (データの埋め込み、参照、およびハイブリッドのデータ モデルを含む)。&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Subheading_Partition" xml:space="preserve">
+    <value>&lt;p&gt;データのパーティション分割に関する考慮点 (コレクション、パーティション分割のタイプ (範囲、ルックアップ、ハッシュ)、およびパーティション分割されたアプリケーションの開発を含む)。&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Subheading_Secure" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB のアクセス制御コンセプトの概要、およびマスター キーと読み取り専用キー、リソース トークン、およびアクセス許可についての情報です。コード スニペットが含まれます。&lt;/p&gt;</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>プレビュー</value>
+  </data>
+</root>

@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Section1_Heading1" xml:space="preserve">
+    <value>Adatszolgáltatások</value>
+  </data>
+  <data name="Section1_Heading2" xml:space="preserve">
+    <value>Alapok</value>
+  </data>
+  <data name="Section1_Heading3_Text1" xml:space="preserve">
+    <value> Segédlet:</value>
+  </data>
+  <data name="Section1_Heading3_Text2" xml:space="preserve">
+    <value>Adatkezelés és üzleti analitika</value>
+  </data>
+  <data name="Section1_Text1" xml:space="preserve">
+    <value>A relációs és nem relációs adatok kezelését segítő Azure-technológiák ismertetése.</value>
+  </data>
+  <data name="Section1_Heading4_Text1" xml:space="preserve">
+    <value> Segédlet:</value>
+  </data>
+  <data name="Section1_Heading4_Text2" xml:space="preserve">
+    <value>Adatkezelés: A technológia helyes megválasztása</value>
+  </data>
+  <data name="Section1_Text2" xml:space="preserve">
+    <value>Az Azure adatkezelési technológiák különböző felhasználási helyzeteinek bemutatása</value>
+  </data>
+  <data name="Section1_Heading5" xml:space="preserve">
+    <value>Azure tárolás</value>
+  </data>
+  <data name="Section1_Heading6_Text1" xml:space="preserve">
+    <value> Szolgáltatáskalauz:</value>
+  </data>
+  <data name="Section1_Heading6_Text2" xml:space="preserve">
+    <value>Blobszolgáltatás</value>
+  </data>
+  <data name="Section1_Text3" xml:space="preserve">
+    <value>Nagy mennyiségű strukturálatlan szöveges vagy bináris adatot, például video-, hang- és képfájlokat legegyszerűbben blobokban lehet tárolni. A Blobszolgáltatás egy, az ISO 27001 szabványnak megfelelő szolgáltatás, amely automatikusan méretezhető legfeljebb 100 terabájtnyi adat tárolásához. A REST-en és az ügyféloldali API-kon keresztül a szolgáltatás gyakorlatilag bárhonnan elérhető.</value>
+  </data>
+  <data name="Section1_Heading7_Text1" xml:space="preserve">
+    <value> Szolgáltatáskalauz:</value>
+  </data>
+  <data name="Section1_Heading7_Text2" xml:space="preserve">
+    <value>Táblaszolgáltatás</value>
+  </data>
+  <data name="Section1_Text4" xml:space="preserve">
+    <value>A táblák olyan alkalmazásoknak biztosítanak NoSQL-funkciókat, amelyeknek nagy mennyiségű strukturálatlan adatot kell tárolniuk. A Táblák egy, az ISO 27001 szabványnak megfelelő szolgáltatás, amely automatikusan méretezhető legfeljebb 100 terabájtnyi adat tárolásához. A REST-en és a felügyelt API-kon keresztül a szolgáltatás gyakorlatilag bárhonnan elérhető.</value>
+  </data>
+  <data name="Section1_Heading8_Text1" xml:space="preserve">
+    <value> Oktatóanyag:</value>
+  </data>
+  <data name="Section1_Heading8_Text2" xml:space="preserve">
+    <value>Blobtárhelyet használó lemezkép-piactér létrehozása</value>
+  </data>
+  <data name="Section1_Text5" xml:space="preserve">
+    <value>Olyan alkalmazás létrehozása, amely Azure blobtárhelyen tárolja a lemezképeket. A Javához készült Azure-kódtárak használatának és az Azure tárolás kezelésének ismertetése.</value>
+  </data>
+  <data name="Section1_Heading9_Text1" xml:space="preserve">
+    <value> Útmutató:</value>
+  </data>
+  <data name="Section1_Heading9_Text2" xml:space="preserve">
+    <value>Egyéni tartományok használata blobtárolókkal</value>
+  </data>
+  <data name="Section1_Text6" xml:space="preserve">
+    <value>A tárfiókok beállíthatók úgy, hogy egyéni tartományt rendelünk egy blobszolgáltatási végponthoz, és így a felhasználók láthatják a tartománynevet az alkalmazás URL-címében.</value>
+  </data>
+  <data name="Section1_Heading10" xml:space="preserve">
+    <value>Relációs adatok</value>
+  </data>
+  <data name="Section1_Heading11_Text1" xml:space="preserve">
+    <value> Szolgáltatáskalauz:</value>
+  </data>
+  <data name="Section1_Heading11_Text2" xml:space="preserve">
+    <value>SQL-adatbázis</value>
+  </data>
+  <data name="Section1_Text7" xml:space="preserve">
+    <value>Az olyan alkalmazásokhoz, melyek teljes körű relációs adatbázis-szolgáltatást igényelnek, az Azure-ban elérhető az SQL adatbázis, korábbi nevén az SQL Azure adatbázis. Az SQL adatbázis magas szintű együttműködési képességgel rendelkezik, így a vásárlók többféle elterjedt fejlesztési keretrendszerben készíthetnek hozzá alkalmazásokat.</value>
+  </data>
+  <data name="Section1_Heading12_Text1" xml:space="preserve">
+    <value> Útmutató:</value>
+  </data>
+  <data name="Section1_Heading12_Text2" xml:space="preserve">
+    <value>Az Azure SQL adatbázis szolgáltatás felügyelete az SQL Server Management Studio használatával</value>
+  </data>
+  <data name="Section1_Text8" xml:space="preserve">
+    <value>Az SQL Server Management Studio használatával felügyelhetők az SQL adatbázis logikai kiszolgálói és adatbázisai. A cikk részletezi, hogyan lehet adatbázisokat vagy bejelentkezéseket létrehozni és kezelni, illetve dinamikus felügyeleti nézetek használatával monitorozni.</value>
+  </data>
+  <data name="Section1_Heading13_Text1" xml:space="preserve">
+    <value> Oktatóanyag:</value>
+  </data>
+  <data name="Section1_Heading13_Text2" xml:space="preserve">
+    <value>Java Spring-keretrendszert használó alkalmazások áttelepítése az Azure, illetve az Azure SQL adatbázis modul használatához</value>
+  </data>
+  <data name="Section1_Text9" xml:space="preserve">
+    <value>Részletes útmutató, amely bemutatja egy teljes, a Spring-keretrendszert használó alkalmazás (Java Pet Clinic) Azure-ba való áttelepítését, beleértve az Azure SQL adatbázis szolgáltatás JPA/Hibernate-tel és a legújabb SQL Server JDBC-illesztőprogramokkal való használatát.</value>
+  </data>
+  <data name="Section1_Heading14_Text1" xml:space="preserve">
+    <value> Oktatóanyag:</value>
+  </data>
+  <data name="Section1_Heading14_Text2" xml:space="preserve">
+    <value>Java-alapú, DocumentDB szolgáltatást használó webalkalmazás készítése</value>
+  </data>
+  <data name="Section1_Text10" xml:space="preserve">
+    <value>Ez az oktatóanyag azt szemlélteti, hogy az Azure DocumentDB szolgáltatással miként tárolhatók és érhetők el egy Azure Websites szolgáltatásban futtatott Java-alkalmazás adatai.</value>
+  </data>
+  <data name="Section1_Heading11" xml:space="preserve">
+    <value>Nem relációs adatok</value>
+  </data>
+</root>

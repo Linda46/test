@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Featured_Heading" xml:space="preserve">
+    <value>Artículos destacados</value>
+  </data>
+  <data name="Hero_Content" xml:space="preserve">
+    <value>&lt;p&gt;Esta documentación y tutoriales le introducen en el uso de este servicio de base de datos de documentos NoSQL totalmente administrados. Cree y consulte rápidamente bases de datos sin esquemas, desarrolle aplicaciones de .NET, Node.js, Java, Javascript o Python usando ejemplos de código sólido, acceda a sus datos usando la interfaz HTTP RESTful o vaya a nuestra área de juegos para ejecutar consultas en datos activos.&lt;/p&gt;</value>
+  </data>
+  <data name="Hero_Heading" xml:space="preserve">
+    <value>Documentación sobre Base de datos de documentos {0}</value>
+    <comment>0 is preview tag</comment>
+  </data>
+  <data name="Hero_SubHeading" xml:space="preserve">
+    <value>Aprenda a usar este servicio de base de datos de documentos NoSQL escalables, totalmente administrados.</value>
+  </data>
+  <data name="MoreResources_Heading" xml:space="preserve">
+    <value>¿Busca más recursos?</value>
+  </data>
+  <data name="QuickLinks_Heading" xml:space="preserve">
+    <value>Vínculos rápidos</value>
+  </data>
+  <data name="QuickLink_1" xml:space="preserve">
+    <value>Pruebe Base de datos de documentos ahora</value>
+  </data>
+  <data name="QuickLink_2" xml:space="preserve">
+    <value>Vaya a nuestra área de juegos para intentar consultas SQL en Base de datos de documentos.</value>
+  </data>
+  <data name="QuickLink_3" xml:space="preserve">
+    <value>Detalles de precios de Base de datos de documentos</value>
+  </data>
+  <data name="Resource1_Content" xml:space="preserve">
+    <value>Soluciones de Azure para administrar sus datos</value>
+  </data>
+  <data name="Resource1_Heading" xml:space="preserve">
+    <value>Soluciones</value>
+  </data>
+  <data name="Resource2_Content" xml:space="preserve">
+    <value>.NET, Node.js, REST, SQL y otras referencias para Base de datos de documentos</value>
+  </data>
+  <data name="Resource2_Heading" xml:space="preserve">
+    <value>Documentos de referencia</value>
+  </data>
+  <data name="Resource3_Content" xml:space="preserve">
+    <value>Haga preguntas, comparta opiniones y analice la plataforma.</value>
+  </data>
+  <data name="Resource3_Heading" xml:space="preserve">
+    <value>Foro</value>
+  </data>
+  <data name="Resource_Whitepaper_Content" xml:space="preserve">
+    <value>David Chappell presenta Base de datos de documentos</value>
+  </data>
+  <data name="Resource_Whitepaper_Heading" xml:space="preserve">
+    <value>Notas del producto</value>
+  </data>
+  <data name="Explore_Heading_Intro" xml:space="preserve">
+    <value>Descripción general del servicio</value>
+  </data>
+  <data name="Explore_Heading" xml:space="preserve">
+    <value>Explorar</value>
+  </data>
+  <data name="Featured_CreateAccount" xml:space="preserve">
+    <value>Cree una cuenta de base de datos</value>
+  </data>
+  <data name="Featured_GetStarted" xml:space="preserve">
+    <value>Introducción a SDK para .NET de Base de datos de documentos</value>
+  </data>
+  <data name="Manage_Heading" xml:space="preserve">
+    <value>Administrar</value>
+  </data>
+  <data name="Manage_Heading_Manage" xml:space="preserve">
+    <value>Administre la capacidad y el rendimiento de Base de datos de documentos</value>
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Documentación sobre Base de datos de documentos | Azure</value>
+  </data>
+  <data name="Develop_Heading_DOTNET" xml:space="preserve">
+    <value>Desarrolle una aplicación ASP.NET con Base de datos de documentos</value>
+  </data>
+  <data name="Develop_SubHeading_DOTNET" xml:space="preserve">
+    <value>&lt;p&gt;Esta guía le ofrece instrucciones paso a paso acerca de cómo desarrollar una aplicación ASP.NET con Base de datos de documentos.&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading_Nodejs" xml:space="preserve">
+    <value>Desarrolle una aplicación Node.js con Base de datos de documentos</value>
+  </data>
+  <data name="Develop_SubHeading_Nodejs" xml:space="preserve">
+    <value>&lt;p&gt;Esta guía le ofrece instrucciones paso a paso acerca de cómo desarrollar una aplicación Node.js con Base de datos de documentos.&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading_Python" xml:space="preserve">
+    <value>Desarrolle una aplicación Python con Base de datos de documentos</value>
+  </data>
+  <data name="Develop_SubHeading_Python" xml:space="preserve">
+    <value>&lt;p&gt;Esta guía le ofrece instrucciones paso a paso acerca de cómo desarrollar una aplicación Python con Base de datos de documentos.&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading" xml:space="preserve">
+    <value>Desarrollar</value>
+  </data>
+  <data name="Explore_SubHeading_Intro" xml:space="preserve">
+    <value>&lt;p&gt;Obtenga información general sobre las características y los beneficios que Base de datos de documentos aporta a sus aplicaciones web y móviles.&lt;/p&gt;</value>
+  </data>
+  <data name="Explore_Heading_CreateAccount" xml:space="preserve">
+    <value>Cree una cuenta de base de datos</value>
+  </data>
+  <data name="Explore_SubHeading_CreateAccount" xml:space="preserve">
+    <value>&lt;p&gt;Cree una cuenta en el portal de vista previa de Azure y seleccione su configuración para la base de datos de Base de datos de documentos.&lt;/p&gt;</value>
+  </data>
+  <data name="Explore_Heading_GetStarted" xml:space="preserve">
+    <value>Introducción a Base de datos de documentos</value>
+  </data>
+  <data name="Explore_SubHeading_GetStarted" xml:space="preserve">
+    <value>&lt;p&gt;Aprenda a configurar una cuenta de Base de datos de documentos, crear bases de datos, crear colecciones y almacenar documentos JSON.&lt;/p&gt;</value>
+  </data>
+  <data name="Explore_Heading_Query" xml:space="preserve">
+    <value>Hacer consultas en Base de datos de documentos</value>
+  </data>
+  <data name="Explore_SubHeading_Query" xml:space="preserve">
+    <value>&lt;p&gt;Consulte su base de datos de Base de datos de documentos con SQL. El índice de Base de datos de documentos realiza un seguimiento automático de las propiedades del documento y no requiere la sobrecarga de la administración de índices.&lt;/p&gt;</value>
+  </data>
+  <data name="Manage_SubHeading_Manage" xml:space="preserve">
+    <value>&lt;p&gt;Aprenda a administrar su cuenta de Base de datos de documentos con el portal de vista previa de Azure.&lt;/p&gt;</value>
+  </data>
+  <data name="Manage_Heading_Monitor" xml:space="preserve">
+    <value>Supervisar una cuenta de Base de datos de documentos</value>
+  </data>
+  <data name="Manage_SubHeading_Monitor" xml:space="preserve">
+    <value>&lt;p&gt;Aprenda a supervisar el uso de la cuenta de Base de datos de documentos con el portal de vista previa de Azure.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading_DOTNET_SDK" xml:space="preserve">
+    <value>Referencia de SDK de .NET</value>
+  </data>
+  <data name="Reference_SubHeading_DOTNET_SDK" xml:space="preserve">
+    <value>&lt;p&gt;Documentación de referencia para la API de .NET admitida por Base de datos de documentos.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading_Nodejs" xml:space="preserve">
+    <value>Referencia de SDK de Node.js</value>
+  </data>
+  <data name="Reference_SubHeading_Nodejs" xml:space="preserve">
+    <value>&lt;p&gt;Documentación de referencia para la API de Node.js admitida por Base de datos de documentos.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading_ClientJS" xml:space="preserve">
+    <value>Referencia de JavaScript del lado cliente</value>
+  </data>
+  <data name="Reference_SubHeading_ClientJS" xml:space="preserve">
+    <value>&lt;p&gt;Documentación de referencia para la API de JavaScript del lado cliente admitida por Base de datos de documentos.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading_Python" xml:space="preserve">
+    <value>Referencia de SDK de Python</value>
+  </data>
+  <data name="Reference_SubHeading_Python" xml:space="preserve">
+    <value>&lt;p&gt;Documentación de referencia para la API de Python admitida por Base de datos de documentos.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading" xml:space="preserve">
+    <value>Referencias</value>
+  </data>
+  <data name="TutorialsGuides_Heading" xml:space="preserve">
+    <value>Tutoriales y guías</value>
+  </data>
+  <data name="Explore_Heading_FAQ" xml:space="preserve">
+    <value>Preguntas más frecuentes</value>
+  </data>
+  <data name="Explore_Heading_Interact" xml:space="preserve">
+    <value>Interactúe con los recursos de Base de datos de documentos</value>
+  </data>
+  <data name="Explore_SubHeading_FAQ" xml:space="preserve">
+    <value>&lt;p&gt;Respuestas a sus preguntas acerca del servicio de base de datos de Base de datos de documentos en Azure. Aprenda cuáles son las unidades de solicitud y capacidad y aprenda a escalar Base de datos de documentos en función de las necesidades de su aplicación.&lt;/p&gt;</value>
+  </data>
+  <data name="Explore_SubHeading_Interact" xml:space="preserve">
+    <value>&lt;p&gt;Consulte información general de tipo técnico acerca de cómo interactuar con recursos RESTful de Base de datos de documentos a través de verbos HTTP.&lt;/p&gt;</value>
+  </data>
+  <data name="Featured_Introduction" xml:space="preserve">
+    <value>Introducción a Base de datos de documentos</value>
+  </data>
+  <data name="Plan_Subheading_Resources" xml:space="preserve">
+    <value>&lt;p&gt;Obtenga información acerca de cada modelo de recursos de Base de datos de documentos y cómo se relacionan los recursos entre sí.&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Subheading_Consistency" xml:space="preserve">
+    <value>&lt;p&gt;Aprenda a equilibrar la coherencia de bases de datos y el rendimiento mediante Base de datos de documentos.&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Subheading_Limits" xml:space="preserve">
+    <value>&lt;p&gt;Obtenga información acerca de los límites y las cuotas del servicio para una cuenta de Base de datos de documentos.&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Heading" xml:space="preserve">
+    <value>Plan</value>
+  </data>
+  <data name="Plan_Heading_Resources" xml:space="preserve">
+    <value>Modelo de recursos y conceptos de Base de datos de documentos</value>
+  </data>
+  <data name="Plan_Heading_Consistency" xml:space="preserve">
+    <value>Niveles de coherencia en Base de datos de documentos.</value>
+  </data>
+  <data name="Plan_Heading_Limits" xml:space="preserve">
+    <value>Límites y cuotas de recursos en Base de datos de documentos.</value>
+  </data>
+  <data name="Reference_Heading_REST" xml:space="preserve">
+    <value>Referencia de la API de REST</value>
+  </data>
+  <data name="Reference_Heading_ServerJS" xml:space="preserve">
+    <value>Referencia de JavaScript del lado servidor</value>
+  </data>
+  <data name="Reference_Heading_SQLRef" xml:space="preserve">
+    <value>Referencia de SQL de Base de datos de documentos</value>
+  </data>
+  <data name="Reference_SubHeading_REST" xml:space="preserve">
+    <value>&lt;p&gt;Documentación de referencia para la API de REST admitida por Base de datos de documentos. Incluye información acerca de errores de HTTP.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_SubHeading_ServerJS" xml:space="preserve">
+    <value>&lt;p&gt;Documentación de referencia para la API de JavaScript del lado servidor admitida por Base de datos de documentos.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_SubHeading_SQLRef" xml:space="preserve">
+    <value>&lt;p&gt;Documentación de referencia para las consultas de bases de datos de Base de datos de documentos con SQL.&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading_Programming" xml:space="preserve">
+    <value>Programación de Base de datos de documentos: procedimientos almacenados, desencadenadores y funciones definidas por el usuario</value>
+  </data>
+  <data name="Develop_SubHeading_Programming" xml:space="preserve">
+    <value>&lt;p&gt;Esta guía ofrece a los desarrolladores un exhaustivo tutorial acerca de cómo registrar y ejecutar procedimientos almacenados, desencadenadores y funciones definidas por el usuario (UDF).&lt;/p&gt;</value>
+  </data>
+  <data name="Featured_Learning" xml:space="preserve">
+    <value>Guía de aprendizaje para Base de datos de documentos</value>
+  </data>
+  <data name="Develop_Heading_DOTNETSamples" xml:space="preserve">
+    <value>Muestras de código .NET de Base de datos de documentos</value>
+  </data>
+  <data name="Develop_Subheading_DOTNETSamples" xml:space="preserve">
+    <value>&lt;p&gt;Aprenda con estas muestras a utilizar el SDK del cliente de .NET para interactuar con el servicio Base de datos de documentos de Azure.&lt;/p&gt;</value>
+  </data>
+  <data name="Manage_Heading_ManageAccount" xml:space="preserve">
+    <value>Administrar una cuenta de Base de datos de documentos</value>
+  </data>
+  <data name="Manage_Subheading_ManageAccount" xml:space="preserve">
+    <value>&lt;p&gt;Aprenda a administrar una cuenta de Base de datos de documentos, incluido el trabajo con claves de acceso, configuración de coherencia y ajustes de capacidad. &lt;/p&gt;</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value>Documentación y tutoriales para ayudarle a usar Base de datos de documentos de Azure, un servicio de NoSQL, para generar aplicaciones con consultan y almacenan los datos de JSON usando Javascript.</value>
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Videos_Cta" xml:space="preserve">
+    <value>Ver más vídeos de Base de datos de documentos</value>
+  </data>
+  <data name="Videos_Heading" xml:space="preserve">
+    <value>Vídeos</value>
+  </data>
+  <data name="Develop_Heading_JAVA" xml:space="preserve">
+    <value>Desarrollar una aplicación Java con Base de datos de documentos</value>
+  </data>
+  <data name="Develop_SubHeading_JAVA" xml:space="preserve">
+    <value>&lt;p&gt;Este tutorial muestra cómo usar el servicio Base de datos de documentos de Azure para almacenar y acceder a datos desde una aplicación Java hospedada en sitios web de Azure.&lt;/p&gt;</value>
+  </data>
+  <data name="Explore_Heading_INDEXING" xml:space="preserve">
+    <value>Cómo funciona la indexación</value>
+  </data>
+  <data name="Explore_SubHeading_INDEXING" xml:space="preserve">
+    <value>&lt;p&gt;Conozca cómo funciona la indexación en Base de datos de documentos y aprenda cómo configurar la política de indexación.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading_JAVA_SDK" xml:space="preserve">
+    <value>Referencia de SDK de Java</value>
+  </data>
+  <data name="Reference_SubHeading_JAVA_SDK" xml:space="preserve">
+    <value>&lt;p&gt;Documentación de referencia para la API de Java admitida por Base de datos de documentos.&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading_Hadoop" xml:space="preserve">
+    <value>Ejecutar un trabajo de Hadoop usando Base de datos de documentos y HDInsight</value>
+  </data>
+  <data name="Develop_Heading_ResManager" xml:space="preserve">
+    <value>Implementar Base de datos de documentos y un sitio web de Azure usando una plantilla del administrador de recursos de Azure</value>
+  </data>
+  <data name="Develop_SubHeading_Hadoop" xml:space="preserve">
+    <value>&lt;p&gt;Tutoriales que muestran cómo ejecutar trabajos de Apache Hive, Apache Pig y Apache Hadoop MapReduce en Azure HDInsight con el conector Hadoop de Base de datos de documentos. Usaremos Base de datos de documentos para el origen y el destino de los datos para trabajos de Hadoop.&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_SubHeading_ResManager" xml:space="preserve">
+    <value>&lt;p&gt;Tutorial que muestra cómo usar una plantilla para implementar e integrar Base de datos de documentos, un sitio web de Azure y una aplicación web de ejemplo.&lt;/p&gt;</value>
+  </data>
+  <data name="Manage_Heading_DocExplorer" xml:space="preserve">
+    <value>Ver, editar, crear y cargar documentos de JSON usando el Explorador de documentos de Base de datos de documentos </value>
+  </data>
+  <data name="Manage_Heading_QueryExplorer" xml:space="preserve">
+    <value>Crear, editar y ejecutar consultas SQL en una colección de Base de datos de documentos usando el Explorador de consultas</value>
+  </data>
+  <data name="Manage_SubHeading_DocExplorer" xml:space="preserve">
+    <value>&lt;p&gt;Tutorial que muestra cómo ver, editar, crear y cargar documentos de JSON con Base de datos de documentos.&lt;/p&gt;</value>
+  </data>
+  <data name="Manage_SubHeading_QueryExplorer" xml:space="preserve">
+    <value>&lt;p&gt;Tutorial que muestra cómo ejecutar consultas SQL en una colección de Base de datos de documentos. Incluye cómo desplazarse a los resultados mediante un explorador y cómo solucionar errores de sintaxis.&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading_Indexer" xml:space="preserve">
+    <value>Conexión con Base de datos de documentos con Búsqueda de Azure usando indizadores</value>
+  </data>
+  <data name="Develop_SubHeading_Indexer" xml:space="preserve">
+    <value>&lt;p&gt;Información detallada acerca de cómo integrar Base de datos de documentos de Azure con Búsqueda de Azure sin tener que escribir código para mantener la infraestructura de indización.&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Heading_Model" xml:space="preserve">
+    <value>Modelado de datos en Base de datos de documentos</value>
+  </data>
+  <data name="Plan_Heading_Partition" xml:space="preserve">
+    <value>Creación de particiones en los datos en Base de datos de documentos</value>
+  </data>
+  <data name="Plan_Heading_Secure" xml:space="preserve">
+    <value>Protección del acceso a Base de datos de documentos</value>
+  </data>
+  <data name="Plan_Subheading_Model" xml:space="preserve">
+    <value>&lt;p&gt;Consideraciones para modelar datos, incluida la incrustación de datos, la referencia a ellos y los modelos de datos híbridos.&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Subheading_Partition" xml:space="preserve">
+    <value>&lt;p&gt;Consideraciones para crear particiones en los datos, incluidas las colecciones, los tipos de particiones (rango, búsqueda y hash) y el desarrollo de una aplicación particionada.&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Subheading_Secure" xml:space="preserve">
+    <value>&lt;p&gt;Información general de los conceptos de control de acceso para Base de datos de documentos e información acerca de claves maestras y de solo lectura, tokens de recursos y permisos. Incluye fragmentos de código.&lt;/p&gt;</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>Vista previa</value>
+  </data>
+</root>

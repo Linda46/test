@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Featured_Heading" xml:space="preserve">
+    <value>Öne çıkan makaleler</value>
+  </data>
+  <data name="Hero_Content" xml:space="preserve">
+    <value>&lt;p&gt;Buradaki belgeler ve öğreticiler, tam olarak yönetilen NoSQL belge hizmet olarak veritabanını kullanmaya başlamanıza yardımcı olur. Hızlı bir şekilde şemasız veritabanları oluşturun ve sorgulayın, sağlam kod örnekleri kullanarak .NET, Node.js, Java, Javascript veya Python uygulamaları geliştirin, RESTful HTTP arabirimini kullanarak verilerinize erişin veya oyun alanımıza giderek canlı verilerde sorgu çalıştırın.&lt;/p&gt;</value>
+  </data>
+  <data name="Hero_Heading" xml:space="preserve">
+    <value>DocumentDB belgeleri {0}</value>
+    <comment>0 is preview tag</comment>
+  </data>
+  <data name="Hero_SubHeading" xml:space="preserve">
+    <value>Bu tam olarak yönetilen, ölçeklenebilir, NoSQL belge veritabanı hizmetini kullanmayı öğrenin</value>
+  </data>
+  <data name="MoreResources_Heading" xml:space="preserve">
+    <value>Daha Fazla Kaynak mı Arıyorsunuz?</value>
+  </data>
+  <data name="QuickLinks_Heading" xml:space="preserve">
+    <value>Hızlı bağlantılar</value>
+  </data>
+  <data name="QuickLink_1" xml:space="preserve">
+    <value>DocumentDB&apos;yi hemen deneyin</value>
+  </data>
+  <data name="QuickLink_2" xml:space="preserve">
+    <value>DocumentDB&apos;de SQL sorgularını denemek için oyun alanımıza gidin</value>
+  </data>
+  <data name="QuickLink_3" xml:space="preserve">
+    <value>DocumentDB fiyatlandırma ayrıntıları</value>
+  </data>
+  <data name="Resource1_Content" xml:space="preserve">
+    <value>Verilerinizi yönetmeniz için Azure çözümleri</value>
+  </data>
+  <data name="Resource1_Heading" xml:space="preserve">
+    <value>Çözümler</value>
+  </data>
+  <data name="Resource2_Content" xml:space="preserve">
+    <value>.NET, Node.js, REST, SQL ve DocumentDB için diğer başvurular</value>
+  </data>
+  <data name="Resource2_Heading" xml:space="preserve">
+    <value>Başvuru belgeleri</value>
+  </data>
+  <data name="Resource3_Content" xml:space="preserve">
+    <value>Soru sorun, görüşlerinizi paylaşın ve platformu tartışın.</value>
+  </data>
+  <data name="Resource3_Heading" xml:space="preserve">
+    <value>Forum</value>
+  </data>
+  <data name="Resource_Whitepaper_Content" xml:space="preserve">
+    <value>David Chappell, DocumentDB&apos;yi tanıtıyor</value>
+  </data>
+  <data name="Resource_Whitepaper_Heading" xml:space="preserve">
+    <value>Teknik İnceleme</value>
+  </data>
+  <data name="Explore_Heading_Intro" xml:space="preserve">
+    <value>Hizmete genel bakış</value>
+  </data>
+  <data name="Explore_Heading" xml:space="preserve">
+    <value>Keşfedin</value>
+  </data>
+  <data name="Featured_CreateAccount" xml:space="preserve">
+    <value>Veritabanı hesabı oluşturma</value>
+  </data>
+  <data name="Featured_GetStarted" xml:space="preserve">
+    <value>DocumentDB .NET SDK&apos;yi kullanmaya başlayın</value>
+  </data>
+  <data name="Manage_Heading" xml:space="preserve">
+    <value>Yönetin</value>
+  </data>
+  <data name="Manage_Heading_Manage" xml:space="preserve">
+    <value>DocumentDB&apos;nin kapasitesini ve performansını yönetme</value>
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>DocumentDB Belgeleri | Azure</value>
+  </data>
+  <data name="Develop_Heading_DOTNET" xml:space="preserve">
+    <value>DocumentDB ile ASP.NET uygulaması geliştirme</value>
+  </data>
+  <data name="Develop_SubHeading_DOTNET" xml:space="preserve">
+    <value>&lt;p&gt;Bu kılavuzda, DocumentDB kullanarak bir ASP.NET uygulaması geliştirmeye yönelik adım adım yönergeler sağlanır.&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading_Nodejs" xml:space="preserve">
+    <value>DocumentDB ile Node.js uygulaması geliştirme</value>
+  </data>
+  <data name="Develop_SubHeading_Nodejs" xml:space="preserve">
+    <value>&lt;p&gt;Bu kılavuzda, DocumentDB kullanarak bir Node.js uygulaması geliştirmeye yönelik adım adım yönergeler sağlanır.&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading_Python" xml:space="preserve">
+    <value>DocumentDB ile Python uygulaması geliştirme</value>
+  </data>
+  <data name="Develop_SubHeading_Python" xml:space="preserve">
+    <value>&lt;p&gt;Bu kılavuzda, DocumentDB kullanarak bir Python uygulaması geliştirmeye yönelik adım adım yönergeler sağlanır.&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading" xml:space="preserve">
+    <value>Geliştirin</value>
+  </data>
+  <data name="Explore_SubHeading_Intro" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB&apos;nin web ve mobil uygulamalarınıza sağladığı özelliklere ve avantajlara genel bakış elde edin.&lt;/p&gt;</value>
+  </data>
+  <data name="Explore_Heading_CreateAccount" xml:space="preserve">
+    <value>Veritabanı hesabı oluşturma</value>
+  </data>
+  <data name="Explore_SubHeading_CreateAccount" xml:space="preserve">
+    <value>&lt;p&gt;Azure Önizleme portalında bir hesap oluşturun ve DocumentDB veritabanı ayarlarınızı seçin.&lt;/p&gt;</value>
+  </data>
+  <data name="Explore_Heading_GetStarted" xml:space="preserve">
+    <value>DocumentDB&apos;yi kullanmaya başlama</value>
+  </data>
+  <data name="Explore_SubHeading_GetStarted" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB hesabını yapılandırmayı, veritabanlarını oluşturmayı, koleksiyonları oluşturmayı ve JSON belgelerini depolamayı öğrenin.&lt;/p&gt;</value>
+  </data>
+  <data name="Explore_Heading_Query" xml:space="preserve">
+    <value>DocumentDB&apos;yi sorgulama</value>
+  </data>
+  <data name="Explore_SubHeading_Query" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB veritabanınızı SQL&apos;le sorgulayın. DocumentDB dizini belge özelliklerini otomatik olarak izler ve dizin yönetiminin getirdiği ek yüke gerek kalmaz.&lt;/p&gt;</value>
+  </data>
+  <data name="Manage_SubHeading_Manage" xml:space="preserve">
+    <value>&lt;p&gt;Azure Önizleme portalını kullanarak DocumentDB hesabınızı nasıl yöneteceğinizi öğrenin.&lt;/p&gt;</value>
+  </data>
+  <data name="Manage_Heading_Monitor" xml:space="preserve">
+    <value>DocumentDB hesabını izleme</value>
+  </data>
+  <data name="Manage_SubHeading_Monitor" xml:space="preserve">
+    <value>&lt;p&gt;Azure Önizleme portalını kullanarak DocumentDB hesabınızın kullanımını nasıl izleyeceğinizi öğrenin.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading_DOTNET_SDK" xml:space="preserve">
+    <value>.NET SDK başvurusu</value>
+  </data>
+  <data name="Reference_SubHeading_DOTNET_SDK" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB tarafından desteklenen .NET API&apos;si için başvuru belgeleri.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading_Nodejs" xml:space="preserve">
+    <value>Node.js SDK başvurusu</value>
+  </data>
+  <data name="Reference_SubHeading_Nodejs" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB tarafından desteklenen Node.js API&apos;si için başvuru belgeleri.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading_ClientJS" xml:space="preserve">
+    <value>İstemci tarafı JavaScript başvurusu</value>
+  </data>
+  <data name="Reference_SubHeading_ClientJS" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB tarafından desteklenen istemci tarafı JavaScript API&apos;si için başvuru belgeleri.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading_Python" xml:space="preserve">
+    <value>Python SDK başvurusu</value>
+  </data>
+  <data name="Reference_SubHeading_Python" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB tarafından desteklenen Python API&apos;si için başvuru belgeleri.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading" xml:space="preserve">
+    <value>Başvurular</value>
+  </data>
+  <data name="TutorialsGuides_Heading" xml:space="preserve">
+    <value>Öğreticiler ve Kılavuzlar</value>
+  </data>
+  <data name="Explore_Heading_FAQ" xml:space="preserve">
+    <value>Sık sorulan sorular</value>
+  </data>
+  <data name="Explore_Heading_Interact" xml:space="preserve">
+    <value>DocumentDB kaynaklarıyla etkileşimli çalışma</value>
+  </data>
+  <data name="Explore_SubHeading_FAQ" xml:space="preserve">
+    <value>&lt;p&gt;Azure üzerindeki DocumentDB veritabanı hizmeti hakkındaki sorularınızın yanıtları. Kapasite ve istek birimlerinin ne olduğunu öğrenin ve DocumentDB&apos;yi uygulamanızın gereksinimlerine göre nasıl ölçekleyeceğinizi anlayın.&lt;/p&gt;</value>
+  </data>
+  <data name="Explore_SubHeading_Interact" xml:space="preserve">
+    <value>&lt;p&gt;HTTP fiilleri üzerinden DocumentDB RESTful kaynaklarıyla etkileşim kurma konusundaki teknik genel bakışı okuyun.&lt;/p&gt;</value>
+  </data>
+  <data name="Featured_Introduction" xml:space="preserve">
+    <value>DocumentDB&apos;ye Giriş</value>
+  </data>
+  <data name="Plan_Subheading_Resources" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB kaynak modellerinin her birini ve kaynakların birbirleriyle ilişkilerini öğrenin.&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Subheading_Consistency" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB&apos;yle veritabanın tutarlılığı ve performansı arasında nasıl denge kurabileceğinizi öğrenin.&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Subheading_Limits" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB belgeleri için hizmet kotaları ve sınırları hakkında bilgi edinin.&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Heading" xml:space="preserve">
+    <value>Plan</value>
+  </data>
+  <data name="Plan_Heading_Resources" xml:space="preserve">
+    <value>DocumentDB kaynak modeli ve kavramları</value>
+  </data>
+  <data name="Plan_Heading_Consistency" xml:space="preserve">
+    <value>DocumentDB&apos;de tutarlılık düzeyleri</value>
+  </data>
+  <data name="Plan_Heading_Limits" xml:space="preserve">
+    <value>DocumentDB kaynak sınırları ve kotaları</value>
+  </data>
+  <data name="Reference_Heading_REST" xml:space="preserve">
+    <value>REST API Başvurusu</value>
+  </data>
+  <data name="Reference_Heading_ServerJS" xml:space="preserve">
+    <value>Sunucu tarafı JavaScript başvurusu</value>
+  </data>
+  <data name="Reference_Heading_SQLRef" xml:space="preserve">
+    <value>DocumentDB SQL başvurusu</value>
+  </data>
+  <data name="Reference_SubHeading_REST" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB tarafından desteklenen REST API&apos;si için başvuru belgeleri. HTTP hataları hakkında da bilgi içerir.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_SubHeading_ServerJS" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB tarafından desteklenen sunucu tarafı JavaScript API&apos;si için başvuru belgeleri.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_SubHeading_SQLRef" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB veritabanlarını SQL&apos;le sorgulama için başvuru belgeleri.&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading_Programming" xml:space="preserve">
+    <value>DocumentDB programlama: Saklı yordamlar, tetikleyiciler ve UDF&apos;ler</value>
+  </data>
+  <data name="Develop_SubHeading_Programming" xml:space="preserve">
+    <value>&lt;p&gt;Bu kılavuzda, geliştiricilere saklı yordamları, tetikleyicileri ve kullanıcı tanımlı işlevleri (UDF) kaydetme ve yürütme işlemlerinde yol gösteren kapsamlı bilgiler sağlanır.&lt;/p&gt;</value>
+  </data>
+  <data name="Featured_Learning" xml:space="preserve">
+    <value>DocumentDB öğrenme kılavuzu</value>
+  </data>
+  <data name="Develop_Heading_DOTNETSamples" xml:space="preserve">
+    <value>DocumentDB .NET kodu örnekleri</value>
+  </data>
+  <data name="Develop_Subheading_DOTNETSamples" xml:space="preserve">
+    <value>&lt;p&gt;.NET İstemci SDK&apos;sını Azure DocumentDB hizmetiyle etkileşim kurmak üzere nasıl kullanabileceğinizi öğrenmek için bu örnekleri kullanın.&lt;/p&gt;</value>
+  </data>
+  <data name="Manage_Heading_ManageAccount" xml:space="preserve">
+    <value>DocumentDB hesabını yönetme</value>
+  </data>
+  <data name="Manage_Subheading_ManageAccount" xml:space="preserve">
+    <value>&lt;p&gt;Erişim anahtarları, tutarlılık ayarları ve kapasite ayarları dahil DocumentDB hesabını nasıl yöneteceğinizi öğrenin. &lt;/p&gt;</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value>Javascript kullanarak JSON verilerini sorgulayan ve depolayan uygulamalar oluşturmak amacıyla bir NoSQL hizmeti olan Azure DocumentDB&apos;yi kullanmanıza yardımcı olacak belgeler ve eğiticiler.</value>
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Videos_Cta" xml:space="preserve">
+    <value>Daha fazla DocumentDB videosu görüntüleyin</value>
+  </data>
+  <data name="Videos_Heading" xml:space="preserve">
+    <value>Videolar</value>
+  </data>
+  <data name="Develop_Heading_JAVA" xml:space="preserve">
+    <value>DocumentDB ile bir Java uygulaması geliştirme</value>
+  </data>
+  <data name="Develop_SubHeading_JAVA" xml:space="preserve">
+    <value>&lt;p&gt;Bu öğreticide, Azure Web Sitelerinde barındırılan bir Java uygulamasındaki verileri depolamak ve erişmek amacıyla Azure DocumentDB hizmetinin nasıl kullanılacağı gösterilmektedir.&lt;/p&gt;</value>
+  </data>
+  <data name="Explore_Heading_INDEXING" xml:space="preserve">
+    <value>Dizin oluşturma nasıl çalışır</value>
+  </data>
+  <data name="Explore_SubHeading_INDEXING" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB&apos;de dizin oluşturmanın nasıl çalıştığını ve dizin oluşturma ilkesini yapılandırmayı öğrenin.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading_JAVA_SDK" xml:space="preserve">
+    <value>Java SDK Başvurusu</value>
+  </data>
+  <data name="Reference_SubHeading_JAVA_SDK" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB tarafından desteklenen Java API&apos;si için başvuru belgeleri.&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading_Hadoop" xml:space="preserve">
+    <value>DocumentDB ve HDInsight kullanarak bir Hadoop işi yürütün</value>
+  </data>
+  <data name="Develop_Heading_ResManager" xml:space="preserve">
+    <value>Azure Kaynak Yöneticisi Şablonu&apos;nu kullanarak DocumentDB ve bir Azure web sitesi dağıtın</value>
+  </data>
+  <data name="Develop_SubHeading_Hadoop" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB Hadoop bağlayıcısı ile Azure HDInsight&apos;ta Apache Hive, Apache Pig ve Apache Hadoop MapReduce işlerini nasıl çalıştıracağınızı gösteren öğretici. Hadoop işlerinde hem veri kaynağı hem de hedef için DocumentDB kullanacağız.&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_SubHeading_ResManager" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB&apos;yi, bir Azure web sitesini ve örnek bir web uygulamasını dağıtmak ve tümleştirmek için nasıl şablon kullanılacağını gösteren öğretici.&lt;/p&gt;</value>
+  </data>
+  <data name="Manage_Heading_DocExplorer" xml:space="preserve">
+    <value>DocumentDB Belge Gezgini&apos;ni kullanarak JSON belgelerini görüntüleyin, düzenleyin, oluşturun ve karşıya yükleyin</value>
+  </data>
+  <data name="Manage_Heading_QueryExplorer" xml:space="preserve">
+    <value>Sorgu Gezgini kullanarak bir DocumentDB koleksiyonunda SQL sorguları oluşturma, düzenleme ve çalıştırma</value>
+  </data>
+  <data name="Manage_SubHeading_DocExplorer" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB ile JSON belgelerini görüntüleme, düzenleme, oluşturma ve yüklemeyi gösteren öğretici.&lt;/p&gt;</value>
+  </data>
+  <data name="Manage_SubHeading_QueryExplorer" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB koleksiyonunda SQL sorgularının nasıl çalıştırılacağını gösteren öğretici. Bir tarayıcı aracılığıyla sonuçlarda nasıl gezinileceğini ve söz dizimi hatalarıyla ilgili sorunların nasıl giderileceğini içerir.&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading_Indexer" xml:space="preserve">
+    <value>Dizin oluşturucular kullanarak DocumentDB&apos;yi Azure Arama&apos;ya bağlama</value>
+  </data>
+  <data name="Develop_SubHeading_Indexer" xml:space="preserve">
+    <value>&lt;p&gt;Dizin oluşturma altyapısını korumak için kod yazmaya gerek kalmadan Azure DocumentDB&apos;yi Azure Arama ile tümleştirmeye ilişkin adım adım bilgiler.&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Heading_Model" xml:space="preserve">
+    <value>DocumentDB&apos;de modelleme verileri</value>
+  </data>
+  <data name="Plan_Heading_Partition" xml:space="preserve">
+    <value>DocumentDB&apos;de bölümleme verileri</value>
+  </data>
+  <data name="Plan_Heading_Secure" xml:space="preserve">
+    <value>DocumentDB verilerine erişimin güvenliğini sağlama</value>
+  </data>
+  <data name="Plan_Subheading_Model" xml:space="preserve">
+    <value>&lt;p&gt;Katıştırma verileri, verilere başvurma ve karma veri modelleri dahil olmak üzere modelleme verilerine ilişkin hususlar.&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Subheading_Partition" xml:space="preserve">
+    <value>&lt;p&gt;Koleksiyonlar, bölümleme türleri (aralık, arama, karma) ve bölümlenmiş bir uygulama geliştirme dahil olmak üzere bölümleme verilerine ilişkin hususlar.&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Subheading_Secure" xml:space="preserve">
+    <value>&lt;p&gt;DocumentDB&apos;ye yönelik erişim denetimi kavramlarına genel bakış ve ana ve salt okunur anahtarlara, kaynak belirteçlerine ve izinlere ilişkin bilgiler. Kod parçacıklarını içerir.&lt;/p&gt;</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>Önizleme</value>
+  </data>
+</root>

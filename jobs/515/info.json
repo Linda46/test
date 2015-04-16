@@ -1,0 +1,194 @@
+﻿{
+  "schemaVersion": "3",
+  "jobId": 515,
+  "files": [
+    {
+      "fileName": "Pages/Develop/Java/Index.resx",
+      "wordCount": 236,
+      "sha": "442e3a2da187fdd956bff88e730a7d7920eb61ab"
+    },
+    {
+      "fileName": "Pages/Develop/Java/Data.resx",
+      "wordCount": 400,
+      "sha": "442e3a2da187fdd956bff88e730a7d7920eb61ab"
+    },
+    {
+      "fileName": "Pages/Documentation/Services/DocumentDb.resx",
+      "wordCount": 911,
+      "sha": "45a33c32a3249f110e2b88962671e7689561ae08"
+    }
+  ],
+  "cultures": [
+    {
+      "culture": "cs-cz",
+      "status": "integrated",
+      "handBackETA": "2015-03-10T23:55",
+      "handOffDate": "2015-03-06T00:53",
+      "handBackDate": "2015-03-09T22:15",
+      "integrationDate": "2015-03-09T22:46"
+    },
+    {
+      "culture": "da-dk",
+      "status": "integrated",
+      "handBackETA": "2015-03-10T23:55",
+      "handOffDate": "2015-03-06T00:53",
+      "handBackDate": "2015-03-09T22:15",
+      "integrationDate": "2015-03-09T22:46"
+    },
+    {
+      "culture": "de-de",
+      "status": "integrated",
+      "handBackETA": "2015-03-10T23:55",
+      "handOffDate": "2015-03-06T00:53",
+      "handBackDate": "2015-03-09T22:15",
+      "integrationDate": "2015-03-09T22:46"
+    },
+    {
+      "culture": "es-es",
+      "status": "integrated",
+      "handBackETA": "2015-03-10T23:55",
+      "handOffDate": "2015-03-06T00:53",
+      "handBackDate": "2015-03-09T22:15",
+      "integrationDate": "2015-03-09T22:46"
+    },
+    {
+      "culture": "fr-fr",
+      "status": "integrated",
+      "handBackETA": "2015-03-10T23:55",
+      "handOffDate": "2015-03-06T00:53",
+      "handBackDate": "2015-03-09T22:15",
+      "integrationDate": "2015-03-09T22:46"
+    },
+    {
+      "culture": "hu-hu",
+      "status": "integrated",
+      "handBackETA": "2015-03-10T23:55",
+      "handOffDate": "2015-03-06T00:53",
+      "handBackDate": "2015-03-09T22:15",
+      "integrationDate": "2015-03-09T22:46"
+    },
+    {
+      "culture": "it-it",
+      "status": "integrated",
+      "handBackETA": "2015-03-10T23:55",
+      "handOffDate": "2015-03-06T00:53",
+      "handBackDate": "2015-03-09T22:15",
+      "integrationDate": "2015-03-09T22:46"
+    },
+    {
+      "culture": "ja-jp",
+      "status": "integrated",
+      "handBackETA": "2015-03-10T23:55",
+      "handOffDate": "2015-03-06T00:53",
+      "handBackDate": "2015-03-09T22:15",
+      "integrationDate": "2015-03-09T22:46"
+    },
+    {
+      "culture": "ko-kr",
+      "status": "integrated",
+      "handBackETA": "2015-03-10T23:55",
+      "handOffDate": "2015-03-06T00:53",
+      "handBackDate": "2015-03-09T22:15",
+      "integrationDate": "2015-03-09T22:46"
+    },
+    {
+      "culture": "nl-nl",
+      "status": "integrated",
+      "handBackETA": "2015-03-10T23:55",
+      "handOffDate": "2015-03-06T00:53",
+      "handBackDate": "2015-03-09T22:15",
+      "integrationDate": "2015-03-09T22:46"
+    },
+    {
+      "culture": "pl-pl",
+      "status": "integrated",
+      "handBackETA": "2015-03-10T23:55",
+      "handOffDate": "2015-03-06T00:53",
+      "handBackDate": "2015-03-09T22:15",
+      "integrationDate": "2015-03-09T22:46"
+    },
+    {
+      "culture": "pt-br",
+      "status": "integrated",
+      "handBackETA": "2015-03-10T23:55",
+      "handOffDate": "2015-03-06T00:53",
+      "handBackDate": "2015-03-09T22:15",
+      "integrationDate": "2015-03-09T22:46"
+    },
+    {
+      "culture": "pt-pt",
+      "status": "integrated",
+      "handBackETA": "2015-03-10T23:55",
+      "handOffDate": "2015-03-06T00:53",
+      "handBackDate": "2015-03-09T22:15",
+      "integrationDate": "2015-03-09T22:46"
+    },
+    {
+      "culture": "ru-ru",
+      "status": "integrated",
+      "handBackETA": "2015-03-10T23:55",
+      "handOffDate": "2015-03-06T00:53",
+      "handBackDate": "2015-03-09T22:15",
+      "integrationDate": "2015-03-09T22:46"
+    },
+    {
+      "culture": "sv-se",
+      "status": "integrated",
+      "handBackETA": "2015-03-10T23:55",
+      "handOffDate": "2015-03-06T00:53",
+      "handBackDate": "2015-03-09T22:15",
+      "integrationDate": "2015-03-09T22:46"
+    },
+    {
+      "culture": "tr-tr",
+      "status": "integrated",
+      "handBackETA": "2015-03-10T23:55",
+      "handOffDate": "2015-03-06T00:53",
+      "handBackDate": "2015-03-09T22:15",
+      "integrationDate": "2015-03-09T22:46"
+    },
+    {
+      "culture": "zh-cn",
+      "status": "integrated",
+      "handBackETA": "2015-03-10T23:55",
+      "handOffDate": "2015-03-06T00:53",
+      "handBackDate": "2015-03-09T22:15",
+      "integrationDate": "2015-03-09T22:46"
+    },
+    {
+      "culture": "zh-tw",
+      "status": "integrated",
+      "handBackETA": "2015-03-10T23:55",
+      "handOffDate": "2015-03-06T00:53",
+      "handBackDate": "2015-03-09T22:15",
+      "integrationDate": "2015-03-09T22:46"
+    },
+    {
+      "culture": "en-in",
+      "status": "integrated",
+      "handBackETA": "2015-03-10T23:55",
+      "handOffDate": "2015-03-06T00:53",
+      "handBackDate": "2015-03-09T22:15",
+      "integrationDate": "2015-03-09T22:46"
+    },
+    {
+      "culture": "en-gb",
+      "status": "integrated",
+      "handBackETA": "2015-03-10T23:55",
+      "handOffDate": "2015-03-06T00:53",
+      "handBackDate": "2015-03-09T22:15",
+      "integrationDate": "2015-03-09T22:46"
+    }
+  ],
+  "generated": "2015-03-06T00:53",
+  "fileCount": 3,
+  "latest": "c42b389b72fb901923fa1e676a63f31ae39fece0",
+  "branch": "master",
+  "status": "integrated",
+  "statusComment": "",
+  "handOffType": "changeset",
+  "priority": 1,
+  "localizationType": "standard",
+  "workItems": "",
+  "workItemNumber": "12871"
+}

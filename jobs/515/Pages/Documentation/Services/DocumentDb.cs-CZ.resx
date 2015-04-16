@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Featured_Heading" xml:space="preserve">
+    <value>Doporučené články</value>
+  </data>
+  <data name="Hero_Content" xml:space="preserve">
+    <value>&lt;p&gt;Dokumentace a kurzy, které tady najdete, vám pomůžou začít používat tuto plně spravovanou NoSQL dokumentovou databázi nabízenou jako služba. Rychle vytvářejte a dotazujte se na databáze bez schémat, vyvíjejte aplikace pro .NET, Node.js, Javu, JavaScript nebo Python pomocí robustních ukázek kódu, přistupujte ke svým datům pomocí rozhraní HTTP RESTful nebo pojďte na naše hřiště a spouštějte dotazy proti živým datům.&lt;/p&gt;</value>
+  </data>
+  <data name="Hero_Heading" xml:space="preserve">
+    <value>Dokumentace k DocumentDB {0}</value>
+    <comment>0 is preview tag</comment>
+  </data>
+  <data name="Hero_SubHeading" xml:space="preserve">
+    <value>Přečtěte si, jak používat tuto plně spravovanou, škálovatelnou dokumentovou databázovou službu založenou na technologii NoSQL.</value>
+  </data>
+  <data name="MoreResources_Heading" xml:space="preserve">
+    <value>Hledáte další zdroje informací?</value>
+  </data>
+  <data name="QuickLinks_Heading" xml:space="preserve">
+    <value>Rychlé odkazy</value>
+  </data>
+  <data name="QuickLink_1" xml:space="preserve">
+    <value>Vyzkoušejte DocumentDB.</value>
+  </data>
+  <data name="QuickLink_2" xml:space="preserve">
+    <value>Přejděte na naše hřiště a zkuste si SQL dotazy v DocumentDB.</value>
+  </data>
+  <data name="QuickLink_3" xml:space="preserve">
+    <value>DocumentDB – podrobnosti o cenách</value>
+  </data>
+  <data name="Resource1_Content" xml:space="preserve">
+    <value>Řešení Azure pro správu vašich dat</value>
+  </data>
+  <data name="Resource1_Heading" xml:space="preserve">
+    <value>Řešení</value>
+  </data>
+  <data name="Resource2_Content" xml:space="preserve">
+    <value>.NET, Node.js, REST, SQL a ostatní reference pro DocumentDB</value>
+  </data>
+  <data name="Resource2_Heading" xml:space="preserve">
+    <value>Referenční dokumenty</value>
+  </data>
+  <data name="Resource3_Content" xml:space="preserve">
+    <value>Ptejte se, sdílejte poznatky a diskutujte o záležitostech týkajících se platformy.</value>
+  </data>
+  <data name="Resource3_Heading" xml:space="preserve">
+    <value>Fórum</value>
+  </data>
+  <data name="Resource_Whitepaper_Content" xml:space="preserve">
+    <value>David Chappell představuje DocumentDB</value>
+  </data>
+  <data name="Resource_Whitepaper_Heading" xml:space="preserve">
+    <value>Dokument white paper</value>
+  </data>
+  <data name="Explore_Heading_Intro" xml:space="preserve">
+    <value>Přehled služeb</value>
+  </data>
+  <data name="Explore_Heading" xml:space="preserve">
+    <value>Prozkoumejte</value>
+  </data>
+  <data name="Featured_CreateAccount" xml:space="preserve">
+    <value>Vytvoření účtu databáze</value>
+  </data>
+  <data name="Featured_GetStarted" xml:space="preserve">
+    <value>Začínáme se sadou DocumentDB .NET SDK</value>
+  </data>
+  <data name="Manage_Heading" xml:space="preserve">
+    <value>Správa</value>
+  </data>
+  <data name="Manage_Heading_Manage" xml:space="preserve">
+    <value>Správa kapacity a výkonu DocumentDB</value>
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Dokumentace pro DocumentDB | Azure</value>
+  </data>
+  <data name="Develop_Heading_DOTNET" xml:space="preserve">
+    <value>Vývoj aplikace ASP.NET pomocí DocumentDB</value>
+  </data>
+  <data name="Develop_SubHeading_DOTNET" xml:space="preserve">
+    <value>&lt;p&gt;Tato příručka obsahuje podrobné pokyny k vývoji aplikace ASP.NET pomocí DocumentDB.&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading_Nodejs" xml:space="preserve">
+    <value>Vývoj aplikace Node.js s DocumentDB</value>
+  </data>
+  <data name="Develop_SubHeading_Nodejs" xml:space="preserve">
+    <value>&lt;p&gt;Tato příručka obsahuje podrobné pokyny k vývoji aplikace Node.js pomocí DocumentDB.&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading_Python" xml:space="preserve">
+    <value>Vývoj aplikace Python s DocumentDB</value>
+  </data>
+  <data name="Develop_SubHeading_Python" xml:space="preserve">
+    <value>&lt;p&gt;Tato příručka obsahuje podrobné pokyny k vývoji aplikace Python pomocí DocumentDB.&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading" xml:space="preserve">
+    <value>Vývoj</value>
+  </data>
+  <data name="Explore_SubHeading_Intro" xml:space="preserve">
+    <value>&lt;p&gt;Získejte přehled funkcí a výhod, které DocumentDB přináší vašim webovým a mobilním aplikacím.&lt;/p&gt;</value>
+  </data>
+  <data name="Explore_Heading_CreateAccount" xml:space="preserve">
+    <value>Vytvoření účtu databáze</value>
+  </data>
+  <data name="Explore_SubHeading_CreateAccount" xml:space="preserve">
+    <value>&lt;p&gt;Vytvořte účet na portálu Azure Preview a vyberte nastavení databáze DocumentDB.&lt;/p&gt;</value>
+  </data>
+  <data name="Explore_Heading_GetStarted" xml:space="preserve">
+    <value>Začínáme s DocumentDB</value>
+  </data>
+  <data name="Explore_SubHeading_GetStarted" xml:space="preserve">
+    <value>&lt;p&gt;Přečtěte si, jak konfigurovat účet DocumentDB, vytvářet databáze, vytvářet kolekce a ukládat dokumenty JSON.&lt;/p&gt;</value>
+  </data>
+  <data name="Explore_Heading_Query" xml:space="preserve">
+    <value>Dotazování databáze DocumentDB</value>
+  </data>
+  <data name="Explore_SubHeading_Query" xml:space="preserve">
+    <value>&lt;p&gt;Dotazy na databázi DocumentDB zadávejte v SQL. Index DocumentDB automaticky sleduje vlastnosti dokumentu, a vy se tak nemusíte zdržovat správou indexu.&lt;/p&gt;</value>
+  </data>
+  <data name="Manage_SubHeading_Manage" xml:space="preserve">
+    <value>&lt;p&gt;Naučte se, jak spravovat účet DocumentDB pomocí portálu Azure Preview.&lt;/p&gt;</value>
+  </data>
+  <data name="Manage_Heading_Monitor" xml:space="preserve">
+    <value>Monitorování účtu DocumentDB</value>
+  </data>
+  <data name="Manage_SubHeading_Monitor" xml:space="preserve">
+    <value>&lt;p&gt;Naučte se, jak monitorovat používání účtu DocumentDB pomocí portálu Azure Preview.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading_DOTNET_SDK" xml:space="preserve">
+    <value>Reference .NET SDK</value>
+  </data>
+  <data name="Reference_SubHeading_DOTNET_SDK" xml:space="preserve">
+    <value>&lt;p&gt;Referenční dokumentace pro rozhraní .NET API podporované DocumentDB&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading_Nodejs" xml:space="preserve">
+    <value>Reference na sadu Node.js SDK</value>
+  </data>
+  <data name="Reference_SubHeading_Nodejs" xml:space="preserve">
+    <value>&lt;p&gt;Referenční dokumentace pro rozhraní Node.js API podporované DocumentDB&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading_ClientJS" xml:space="preserve">
+    <value>Reference na JavaScript na straně klienta</value>
+  </data>
+  <data name="Reference_SubHeading_ClientJS" xml:space="preserve">
+    <value>&lt;p&gt;Referenční dokumentace pro rozhraní JavaScript API na straně klienta podporované DocumentDB&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading_Python" xml:space="preserve">
+    <value>Reference na sadu Python SDK</value>
+  </data>
+  <data name="Reference_SubHeading_Python" xml:space="preserve">
+    <value>&lt;p&gt;Referenční dokumentace pro rozhraní Python API podporované DocumentDB&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading" xml:space="preserve">
+    <value>Odkazy</value>
+  </data>
+  <data name="TutorialsGuides_Heading" xml:space="preserve">
+    <value>Výukové programy a příručky</value>
+  </data>
+  <data name="Explore_Heading_FAQ" xml:space="preserve">
+    <value>Nejčastější dotazy</value>
+  </data>
+  <data name="Explore_Heading_Interact" xml:space="preserve">
+    <value>Interakce s prostředky DocumentDB</value>
+  </data>
+  <data name="Explore_SubHeading_FAQ" xml:space="preserve">
+    <value>&lt;p&gt;Odpovědi na otázky o databázové službě DocumentDB na Azure. Přečtěte si informace o kapacitě a jednotkách požadavků a zjistěte, jak škálovat DocumentDB pro potřeby vaší aplikace.&lt;/p&gt;</value>
+  </data>
+  <data name="Explore_SubHeading_Interact" xml:space="preserve">
+    <value>&lt;p&gt;Přečtěte si technický přehled způsobu interakce s příkazy prostředků RESTful přes HTTP v databázi DocumentDB.&lt;/p&gt;</value>
+  </data>
+  <data name="Featured_Introduction" xml:space="preserve">
+    <value>Úvod do DocumentDB</value>
+  </data>
+  <data name="Plan_Subheading_Resources" xml:space="preserve">
+    <value>&lt;p&gt;Přečtěte si o jednotlivých modelech prostředků DocumentDB a o tom, jak spolu prostředky vzájemně souvisí.&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Subheading_Consistency" xml:space="preserve">
+    <value>&lt;p&gt;Naučte se, jak vyvážit konzistenci a výkon databáze pomocí DocumentDB.&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Subheading_Limits" xml:space="preserve">
+    <value>&lt;p&gt;Přečtěte si informace o kvótě a limitech služby pro účet DocumentDB.&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Heading" xml:space="preserve">
+    <value>Plánujte</value>
+  </data>
+  <data name="Plan_Heading_Resources" xml:space="preserve">
+    <value>Model prostředků a koncepty DocumentDB</value>
+  </data>
+  <data name="Plan_Heading_Consistency" xml:space="preserve">
+    <value>Úrovně konzistentnosti v DocumentDB</value>
+  </data>
+  <data name="Plan_Heading_Limits" xml:space="preserve">
+    <value>Limity a kvóty prostředků DocumentDB</value>
+  </data>
+  <data name="Reference_Heading_REST" xml:space="preserve">
+    <value>Reference k rozhraní API REST</value>
+  </data>
+  <data name="Reference_Heading_ServerJS" xml:space="preserve">
+    <value>Reference na JavaScript na straně serveru</value>
+  </data>
+  <data name="Reference_Heading_SQLRef" xml:space="preserve">
+    <value>Reference DocumentDB SQL</value>
+  </data>
+  <data name="Reference_SubHeading_REST" xml:space="preserve">
+    <value>&lt;p&gt;Referenční dokumentace pro rozhraní API REST podporované databází DocumentDB Obsahuje informace o chybách HTTP.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_SubHeading_ServerJS" xml:space="preserve">
+    <value>&lt;p&gt;Referenční dokumentace pro rozhraní JavaScript API na straně serveru podporované DocumentDB&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_SubHeading_SQLRef" xml:space="preserve">
+    <value>&lt;p&gt;Referenční dokumentace pro dotazování databází DocumentDB v SQL&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading_Programming" xml:space="preserve">
+    <value>Programování DocumentDB: Uložené procedury, aktivační události a UDF</value>
+  </data>
+  <data name="Develop_SubHeading_Programming" xml:space="preserve">
+    <value>&lt;p&gt;Tato příručka vývojáře podrobně provede postupem registrace a spouštění uložených procedur, aktivačních událostí a funkcí definovaných uživatelem (UDF).&lt;/p&gt;</value>
+  </data>
+  <data name="Featured_Learning" xml:space="preserve">
+    <value>Výuková příručka pro DocumentDB</value>
+  </data>
+  <data name="Develop_Heading_DOTNETSamples" xml:space="preserve">
+    <value>Vzorový kód DocumentDB .NET</value>
+  </data>
+  <data name="Develop_Subheading_DOTNETSamples" xml:space="preserve">
+    <value>&lt;p&gt;Tyto ukázky kódu slouží jako výukové příklady použití sady .NET SDK klienta k interakci se službou Azure DocumentDB.&lt;/p&gt;</value>
+  </data>
+  <data name="Manage_Heading_ManageAccount" xml:space="preserve">
+    <value>Správa účtu DocumentDB</value>
+  </data>
+  <data name="Manage_Subheading_ManageAccount" xml:space="preserve">
+    <value>&lt;p&gt;Naučte se spravovat účet DocumentDB, včetně práce s přístupovými klávesami, nastavením konzistence a nastavením kapacity. &lt;/p&gt;</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value>Dokumentace a kurzy vám pomůžou používat Azure DocumentDB, tedy službu NoSQL, k vytváření aplikací, které dotazují a ukládají data JSON pomocí JavaScriptu.</value>
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Videos_Cta" xml:space="preserve">
+    <value>Zobrazit víc videí o databázi DocumentDB</value>
+  </data>
+  <data name="Videos_Heading" xml:space="preserve">
+    <value>Videa</value>
+  </data>
+  <data name="Develop_Heading_JAVA" xml:space="preserve">
+    <value>Vývoj aplikace Java s DocumentDB</value>
+  </data>
+  <data name="Develop_SubHeading_JAVA" xml:space="preserve">
+    <value>&lt;p&gt;Tento kurz vám ukáže, jak používat službu Azure DocumentDB k ukládání a přístupu k datům z aplikace Java hostované na Webech Azure.&lt;/p&gt;</value>
+  </data>
+  <data name="Explore_Heading_INDEXING" xml:space="preserve">
+    <value>Jak funguje indexování</value>
+  </data>
+  <data name="Explore_SubHeading_INDEXING" xml:space="preserve">
+    <value>&lt;p&gt;Seznamte se s principem indexování v DocumentDB a zjistěte, jak nakonfigurovat zásady indexování.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading_JAVA_SDK" xml:space="preserve">
+    <value>Reference sady Java SDK</value>
+  </data>
+  <data name="Reference_SubHeading_JAVA_SDK" xml:space="preserve">
+    <value>&lt;p&gt;Referenční dokumentace pro rozhraní Java API podporované v DocumentDB.&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading_Hadoop" xml:space="preserve">
+    <value>Spuštění úlohy Hadoopu pomocí DocumentDB a HDInsightu</value>
+  </data>
+  <data name="Develop_Heading_ResManager" xml:space="preserve">
+    <value>Nasazení DocumentDB a webu Azure pomocí šablony Správce prostředků Azure</value>
+  </data>
+  <data name="Develop_SubHeading_Hadoop" xml:space="preserve">
+    <value>&lt;p&gt;Kurz, ve kterém se dozvíte, jak spouštět úlohy Apache Hive, Apache Pig a Apache Hadoop MapReduce na Azure HDInsightu s konektorem Hadoop pro DocumentDB Jako zdroj dat i jako cíl pro úlohy Hadoopu použijeme DocumentDB.&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_SubHeading_ResManager" xml:space="preserve">
+    <value>&lt;p&gt;Kurz, ve kterém se dozvíte, jak pomocí šablony nasadit a integrovat DocumentDB, web Azure a ukázkovou webovou aplikaci&lt;/p&gt;</value>
+  </data>
+  <data name="Manage_Heading_DocExplorer" xml:space="preserve">
+    <value>Zobrazování, úpravy, vytváření a nahrávání dokumentů JSON pomocí Průzkumníka dokumentů DocumentDB</value>
+  </data>
+  <data name="Manage_Heading_QueryExplorer" xml:space="preserve">
+    <value>Vytváření, úpravy a spouštění dotazů SQL proti kolekci DocumentDB pomocí Průzkumníka dotazů</value>
+  </data>
+  <data name="Manage_SubHeading_DocExplorer" xml:space="preserve">
+    <value>&lt;p&gt;Kurz, ve kterém se dozvíte, jak zobrazovat, upravovat, vytvářet a nahrávat dokumenty JSON pomocí DocumentDB&lt;/p&gt;</value>
+  </data>
+  <data name="Manage_SubHeading_QueryExplorer" xml:space="preserve">
+    <value>&lt;p&gt;Kurz, ve kterém se dozvíte, jak spouštět dotazy SQL proti kolekci DocumentDB Zahrnuje způsob navigace ve výsledcích přes prohlížeč a odstraňování chyb syntaxe.&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading_Indexer" xml:space="preserve">
+    <value>Propojení DocumentDB s Vyhledáváním systému Azure pomocí indexerů</value>
+  </data>
+  <data name="Develop_SubHeading_Indexer" xml:space="preserve">
+    <value>&lt;p&gt;Podrobné informace o tom, jak integrovat Azure DocumentDB s Vyhledáváním systému Azure bez nutnosti vytvářet kód pro údržbu indexovací infrastruktury.&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Heading_Model" xml:space="preserve">
+    <value>Modelování dat v DocumentDB</value>
+  </data>
+  <data name="Plan_Heading_Partition" xml:space="preserve">
+    <value>Dělení dat v DocumentDB</value>
+  </data>
+  <data name="Plan_Heading_Secure" xml:space="preserve">
+    <value>Zabezpečení přístupu k datům DocumentDB</value>
+  </data>
+  <data name="Plan_Subheading_Model" xml:space="preserve">
+    <value>&lt;p&gt;Co je třeba zvážit při modelování dat, včetně vkládání dat, odkazování na ně a hybridních datových modelů.&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Subheading_Partition" xml:space="preserve">
+    <value>&lt;p&gt;Co je třeba zvážit při dělení dat, včetně kolekcí, typů dělení (rozsah, vyhledávání, algoritmus hash) a vývoj rozdělené aplikace.&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Subheading_Secure" xml:space="preserve">
+    <value>&lt;p&gt;Přehled konceptů řízení přístupu pro DocumentDB a informace o hlavních klíčích a klíčích jen pro čtení, tokenech prostředků a oprávněních. Zahrnuje fragmenty kódu.&lt;/p&gt;</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+</root>

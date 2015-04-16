@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Featured_Heading" xml:space="preserve">
+    <value>Kiemelt cikkek</value>
+  </data>
+  <data name="Hero_Content" xml:space="preserve">
+    <value>&lt;p&gt;Az itt elérhető dokumentáció és oktatóanyagok megkönnyítik e teljes körűen felügyelt, szolgáltatásként kínált dokumentum-adatbázis használatának első lépéseit. Könnyedén hozhat létre és kérdezhet le sémamentes adatbázisokat, a robusztus kódminták segítségével .NET, Node.js, Java és Javascript nyelven fejleszthet alkalmazásokat, adatait a RESTful HTTP-felület használatával érheti el, és tesztlekérdezéseket is futtathat élő adatokon.&lt;/p&gt;</value>
+  </data>
+  <data name="Hero_Heading" xml:space="preserve">
+    <value>DocumentDB – dokumentáció {0}</value>
+    <comment>0 is preview tag</comment>
+  </data>
+  <data name="Hero_SubHeading" xml:space="preserve">
+    <value>Ismerkedjen meg ennek e teljes körűen felügyelt, méretezhető NoSQL dokumentumadatbázis-szolgáltatás használatával</value>
+  </data>
+  <data name="MoreResources_Heading" xml:space="preserve">
+    <value>További háttéranyagok</value>
+  </data>
+  <data name="QuickLinks_Heading" xml:space="preserve">
+    <value>Gyorshivatkozások</value>
+  </data>
+  <data name="QuickLink_1" xml:space="preserve">
+    <value>Próbálja ki most a DocumentDB-t</value>
+  </data>
+  <data name="QuickLink_2" xml:space="preserve">
+    <value>Látogasson el tesztpályánkra, és futtasson SQL-lekérdezéseket a DocumentDB-ben</value>
+  </data>
+  <data name="QuickLink_3" xml:space="preserve">
+    <value>A dokumentum-adatbázis részletes díjszabása</value>
+  </data>
+  <data name="Resource1_Content" xml:space="preserve">
+    <value>Adatkezelési Azure-megoldások</value>
+  </data>
+  <data name="Resource1_Heading" xml:space="preserve">
+    <value>Megoldások</value>
+  </data>
+  <data name="Resource2_Content" xml:space="preserve">
+    <value>.NET-, Node.js-, REST-, SQL- és egyéb segédanyagok a Dokumentum-adatbázishoz</value>
+  </data>
+  <data name="Resource2_Heading" xml:space="preserve">
+    <value>Segédanyagok</value>
+  </data>
+  <data name="Resource3_Content" xml:space="preserve">
+    <value>Kérdések, tapasztalatok és beszélgetés a platformról</value>
+  </data>
+  <data name="Resource3_Heading" xml:space="preserve">
+    <value>Fórum</value>
+  </data>
+  <data name="Resource_Whitepaper_Content" xml:space="preserve">
+    <value>David Chappell bemutatja a Dokumentum-adatbázist</value>
+  </data>
+  <data name="Resource_Whitepaper_Heading" xml:space="preserve">
+    <value>Tanulmány</value>
+  </data>
+  <data name="Explore_Heading_Intro" xml:space="preserve">
+    <value>A szolgáltatás áttekintése</value>
+  </data>
+  <data name="Explore_Heading" xml:space="preserve">
+    <value>Ismerkedés</value>
+  </data>
+  <data name="Featured_CreateAccount" xml:space="preserve">
+    <value>Adatbázisfiók létrehozása</value>
+  </data>
+  <data name="Featured_GetStarted" xml:space="preserve">
+    <value>Ismerkedés a DocumentDB .NET SDK-val</value>
+  </data>
+  <data name="Manage_Heading" xml:space="preserve">
+    <value>Kezelés</value>
+  </data>
+  <data name="Manage_Heading_Manage" xml:space="preserve">
+    <value>A Dokumentum-adatbázis kapacitásának és teljesítményének felügyelete</value>
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>A Dokumentum-adatbázis dokumentációja | Azure</value>
+  </data>
+  <data name="Develop_Heading_DOTNET" xml:space="preserve">
+    <value>ASP.NET-alkalmazás fejlesztése a Dokumentum-adatbázissal</value>
+  </data>
+  <data name="Develop_SubHeading_DOTNET" xml:space="preserve">
+    <value>&lt;p&gt;Részletes útmutató ASP.NET-alkalmazások Dokumentum-adatbázissal történő fejlesztéséhez.&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading_Nodejs" xml:space="preserve">
+    <value>Node.js-alkalmazások fejlesztése a Dokumentum-adatbázissal</value>
+  </data>
+  <data name="Develop_SubHeading_Nodejs" xml:space="preserve">
+    <value>&lt;p&gt;Részletes útmutató Node.js-alkalmazások Dokumentum-adatbázissal történő fejlesztéséhez.&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading_Python" xml:space="preserve">
+    <value>Python-alkalmazások fejlesztése a Dokumentum-adatbázissal</value>
+  </data>
+  <data name="Develop_SubHeading_Python" xml:space="preserve">
+    <value>&lt;p&gt;Részletes útmutató Python-alkalmazások Dokumentum-adatbázissal történő fejlesztéséhez.&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading" xml:space="preserve">
+    <value>Fejlesztés</value>
+  </data>
+  <data name="Explore_SubHeading_Intro" xml:space="preserve">
+    <value>&lt;p&gt;Azon funkciók és előnyök összefoglaló jellegű ismertetése, amelyeket a DocumentDB biztosít a web- és mobilalkalmazások számára.&lt;/p&gt;</value>
+  </data>
+  <data name="Explore_Heading_CreateAccount" xml:space="preserve">
+    <value>Adatbázisfiók létrehozása</value>
+  </data>
+  <data name="Explore_SubHeading_CreateAccount" xml:space="preserve">
+    <value>&lt;p&gt;Fiók létrehozása az Azure Betekintő portálon, és a Dokumentum-adatbázis beállításainak megadása.&lt;/p&gt;</value>
+  </data>
+  <data name="Explore_Heading_GetStarted" xml:space="preserve">
+    <value>Ismerkedés a Dokumentum-adatbázissal</value>
+  </data>
+  <data name="Explore_SubHeading_GetStarted" xml:space="preserve">
+    <value>&lt;p&gt;Fiók konfigurálása a Dokumentum-adatbázisban, adatbázisok és gyűjtemények létrehozása, JSON-dokumentumok tárolása.&lt;/p&gt;</value>
+  </data>
+  <data name="Explore_Heading_Query" xml:space="preserve">
+    <value>A Dokumentum-adatbázis lekérdezése</value>
+  </data>
+  <data name="Explore_SubHeading_Query" xml:space="preserve">
+    <value>&lt;p&gt;A Dokumentum-adatbázisban SQL-lekérdezéseket futtathat. A Dokumentum-adatbázis indexe automatikusan nyomon követi a dokumentumtulajdonságokat. Az index kezelését és karbantartását a szolgáltatás végzi.&lt;/p&gt;</value>
+  </data>
+  <data name="Manage_SubHeading_Manage" xml:space="preserve">
+    <value>&lt;p&gt;Dokumentum-adatbázis szolgáltatásbeli fiók kezelése az Azure Betekintő portál segítségével.&lt;/p&gt;</value>
+  </data>
+  <data name="Manage_Heading_Monitor" xml:space="preserve">
+    <value>Dokumentum-adatbázis szolgáltatásbeli fiók monitorozása</value>
+  </data>
+  <data name="Manage_SubHeading_Monitor" xml:space="preserve">
+    <value>&lt;p&gt;Dokumentum-adatbázis szolgáltatásbeli fiók használatának monitorozása az Azure Betekintő portál segítségével.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading_DOTNET_SDK" xml:space="preserve">
+    <value>.NET SDK-leírás</value>
+  </data>
+  <data name="Reference_SubHeading_DOTNET_SDK" xml:space="preserve">
+    <value>&lt;p&gt;Segédanyagok a Dokumentum-adatbázis által támogatott .NET API-hoz.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading_Nodejs" xml:space="preserve">
+    <value>Node.js SDK-leírás</value>
+  </data>
+  <data name="Reference_SubHeading_Nodejs" xml:space="preserve">
+    <value>&lt;p&gt;Segédanyagok a Dokumentum-adatbázis által támogatott Node.js API-hoz.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading_ClientJS" xml:space="preserve">
+    <value>Segédanyagok a kliensoldali JavaScript-hez</value>
+  </data>
+  <data name="Reference_SubHeading_ClientJS" xml:space="preserve">
+    <value>&lt;p&gt;Segédanyagok a Dokumentum-adatbázis által támogatott kliensoldali JavaScript API-hez.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading_Python" xml:space="preserve">
+    <value>Python SDK-leírás</value>
+  </data>
+  <data name="Reference_SubHeading_Python" xml:space="preserve">
+    <value>&lt;p&gt;Segédanyagok a Dokumentum-adatbázis által támogatott Python API-hez.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading" xml:space="preserve">
+    <value>Tudástár</value>
+  </data>
+  <data name="TutorialsGuides_Heading" xml:space="preserve">
+    <value>Oktatóanyagok és útmutatók</value>
+  </data>
+  <data name="Explore_Heading_FAQ" xml:space="preserve">
+    <value>Gyakori kérdések</value>
+  </data>
+  <data name="Explore_Heading_Interact" xml:space="preserve">
+    <value>A Dokumentum-adatbázis erőforrásainak használata</value>
+  </data>
+  <data name="Explore_SubHeading_FAQ" xml:space="preserve">
+    <value>&lt;p&gt;Válaszok az Azure Dokumentum-adatbázis szolgáltatásával kapcsolatos kérdésekre. Válaszainkból megismerheti a kapacitás- és kérésegységeket, és megtudhatja, hogy miként méretezheti az alkalmazásigényeknek megfelelően a Dokumentum-adatbázist.&lt;/p&gt;</value>
+  </data>
+  <data name="Explore_SubHeading_Interact" xml:space="preserve">
+    <value>&lt;p&gt;Útmutató a Dokumentum-adatbázis RESTful-erőforrásainak HTTP-parancsokkal történő használatához.&lt;/p&gt;</value>
+  </data>
+  <data name="Featured_Introduction" xml:space="preserve">
+    <value>A Dokumentum-adatbázis bemutatása</value>
+  </data>
+  <data name="Plan_Subheading_Resources" xml:space="preserve">
+    <value>&lt;p&gt;A Dokumentum-adatbázis erőforrás-modelljeinek és az erőforrások egymáshoz való kapcsolódásának ismertetése.&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Subheading_Consistency" xml:space="preserve">
+    <value>&lt;p&gt;Az adatbázis konzisztenciája és teljesítménye közötti megfelelő egyensúly megteremtése a Dokumentum-adatbázissal.&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Subheading_Limits" xml:space="preserve">
+    <value>&lt;p&gt;A Dokumentum-adatbázis szolgáltatásbeli fiókokra vonatkozó szolgáltatáskvóták és -korlátozások.&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Heading" xml:space="preserve">
+    <value>Felkészülés</value>
+  </data>
+  <data name="Plan_Heading_Resources" xml:space="preserve">
+    <value>A Dokumentum-adatbázis erőforrás-modellje és fogalmai</value>
+  </data>
+  <data name="Plan_Heading_Consistency" xml:space="preserve">
+    <value>Konzisztenciaszintek a Dokumentum-adatbázisban</value>
+  </data>
+  <data name="Plan_Heading_Limits" xml:space="preserve">
+    <value>A Dokumentum-adatbázis erőforrásaira vonatkozó korlátozások és kvóták</value>
+  </data>
+  <data name="Reference_Heading_REST" xml:space="preserve">
+    <value>REST API-leírás</value>
+  </data>
+  <data name="Reference_Heading_ServerJS" xml:space="preserve">
+    <value>A szerveroldali JavaScript leírása</value>
+  </data>
+  <data name="Reference_Heading_SQLRef" xml:space="preserve">
+    <value>SQL-segédanyagok a Dokumentum-adatbázishoz</value>
+  </data>
+  <data name="Reference_SubHeading_REST" xml:space="preserve">
+    <value>&lt;p&gt;Segédanyagok a Dokumentum-adatbázis által támogatott REST API-hoz. HTTP-hibákkal kapcsolatos információk.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_SubHeading_ServerJS" xml:space="preserve">
+    <value>&lt;p&gt;Segédanyagok a Dokumentum-adatbázis által támogatott szerveroldali JavaScript API-hoz.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_SubHeading_SQLRef" xml:space="preserve">
+    <value>&lt;p&gt;Segédanyagok a dokumentum-adatbázisok SQL-alapú lekérdezéséhez.&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading_Programming" xml:space="preserve">
+    <value>A Dokumentum-adatbázis programozása: tárolt eljárások, eseményindítók és felhasználói függvények</value>
+  </data>
+  <data name="Develop_SubHeading_Programming" xml:space="preserve">
+    <value>&lt;p&gt;Fejlesztői útmutató tárolt eljárások, eseményindítók és felhasználói függvények regisztrálásához és végrehajtásához.&lt;/p&gt;</value>
+  </data>
+  <data name="Featured_Learning" xml:space="preserve">
+    <value>Útmutató a DocumentDB használatának elsajátításához</value>
+  </data>
+  <data name="Develop_Heading_DOTNETSamples" xml:space="preserve">
+    <value>A Dokumentum-adatbázis .NET platformra írt kódmintái</value>
+  </data>
+  <data name="Develop_Subheading_DOTNETSamples" xml:space="preserve">
+    <value>&lt;p&gt;Ezekből a mintákból megtanulhatja, hogy miként használja a .NET Client SDK készletet az Azure Dokumentum-adatbázis szolgáltatással történő kommunikációra.&lt;/p&gt;</value>
+  </data>
+  <data name="Manage_Heading_ManageAccount" xml:space="preserve">
+    <value>Dokumentum-adatbázis szolgáltatásbeli fiók kezelése</value>
+  </data>
+  <data name="Manage_Subheading_ManageAccount" xml:space="preserve">
+    <value>&lt;p&gt;Ebben a témakörben megismerheti a Dokumentum-adatbázis szolgáltatásbeli fiók kezelését, beleértve a hozzáférési kulcsok használatát, valamint a konzisztenciára és kapacitásra vonatkozó beállításokat. &lt;/p&gt;</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value>Dokumentáció és oktatóanyagok az Azure DocumentDB használatának megkönnyítéséhez. Ezzel a NoSQL szolgáltatással olyan alkalmazásokat hozhat létre, amelyek JSON-adatokat kérdeznek le és tárolnak a Javascript használatával.</value>
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Videos_Cta" xml:space="preserve">
+    <value> További videók a Dokumentum-adatbázis szolgáltatásról</value>
+  </data>
+  <data name="Videos_Heading" xml:space="preserve">
+    <value>Videók</value>
+  </data>
+  <data name="Develop_Heading_JAVA" xml:space="preserve">
+    <value>Java-alkalmazások fejlesztése a DocumentDB-vel</value>
+  </data>
+  <data name="Develop_SubHeading_JAVA" xml:space="preserve">
+    <value>&lt;p&gt;Ez az oktatóanyag azt szemlélteti, hogy az Azure DocumentDB szolgáltatással miként tárolhatók és érhetők el egy Azure Websites szolgáltatásban futtatott Java-alkalmazás adatai.&lt;/p&gt;</value>
+  </data>
+  <data name="Explore_Heading_INDEXING" xml:space="preserve">
+    <value>Indexelési útmutató</value>
+  </data>
+  <data name="Explore_SubHeading_INDEXING" xml:space="preserve">
+    <value>&lt;p&gt;Ismerje meg, hogy miként működik az indexelés a DocumentDB-ben, és hogy miként kell konfigurálni az indexelési szabályokat.&lt;/p&gt;</value>
+  </data>
+  <data name="Reference_Heading_JAVA_SDK" xml:space="preserve">
+    <value>Java SDK-dokumentáció</value>
+  </data>
+  <data name="Reference_SubHeading_JAVA_SDK" xml:space="preserve">
+    <value>&lt;p&gt;Segédanyagok a DocumentDB által támogatott Java API-hoz.&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading_Hadoop" xml:space="preserve">
+    <value>Hadoop-feladatok futtatása a DocumentDB és a HDInsight használatával</value>
+  </data>
+  <data name="Develop_Heading_ResManager" xml:space="preserve">
+    <value>A DocumentDB és egy Azure-os webhely üzembe helyezése Azure-os erőforráskezelő-sablon használatával</value>
+  </data>
+  <data name="Develop_SubHeading_Hadoop" xml:space="preserve">
+    <value>&lt;p&gt;Ebből az oktatóanyagból megtudhatja, hogyan futtathat Apache Hive-, Apache Pig- és Apache Hadoop MapReduce-feladatokat az Azure HDInsighttal a DocumentDB Hadoop-összekötő segítségével. A példákban a DocumentDB-t fogjuk használni a Hadoop-feladatok adatforrásához és céljához is.&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_SubHeading_ResManager" xml:space="preserve">
+    <value>&lt;p&gt;Ebből az oktatóanyagból megtudható, hogy miként lehet sablon használatával telepíteni és integrálni a DocumentDB-t, egy Azure-os webhelyet, illetve egy webes példaalkalmazást.&lt;/p&gt;</value>
+  </data>
+  <data name="Manage_Heading_DocExplorer" xml:space="preserve">
+    <value>JSON-dokumentumok megtekintése, szerkesztése és feltöltése a DocumentDB Document Explorer eszközzel</value>
+  </data>
+  <data name="Manage_Heading_QueryExplorer" xml:space="preserve">
+    <value>SQL-lekérdezések létrehozása, szerkesztése és futtatása DocumentDB-gyűjteményen a lekérdezésböngésző használatával</value>
+  </data>
+  <data name="Manage_SubHeading_DocExplorer" xml:space="preserve">
+    <value>&lt;p&gt;Az oktatóanyag bemutatja a JSON-dokumentumok megtekintését, szerkesztését, létrehozását és feltöltését a DocumentDB használatával.&lt;/p&gt;</value>
+  </data>
+  <data name="Manage_SubHeading_QueryExplorer" xml:space="preserve">
+    <value>&lt;p&gt;Ebben az oktatóanyagban azt mutatjuk be, hogyan futtathatók SQL-lekérdezések DocumentDB-gyűjteményeken. Ismertetjük az eredmények böngészőből való elérését és a szintaktikai hibák elhárítását is.&lt;/p&gt;</value>
+  </data>
+  <data name="Develop_Heading_Indexer" xml:space="preserve">
+    <value>A DocumentDB és az Azure Search összekapcsolása indexelők használatával</value>
+  </data>
+  <data name="Develop_SubHeading_Indexer" xml:space="preserve">
+    <value>&lt;p&gt;Részletes információ arról, hogy miként integrálható az Azure DocumentDB és az Azure Search anélkül, hogy kódot kellene írni az indexelési infrastruktúra működtetéséhez.&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Heading_Model" xml:space="preserve">
+    <value>Adatmodellezés a DocumentDB-ben</value>
+  </data>
+  <data name="Plan_Heading_Partition" xml:space="preserve">
+    <value>Adatparticionálás a DocumentDB-ben</value>
+  </data>
+  <data name="Plan_Heading_Secure" xml:space="preserve">
+    <value>Biztonságos hozzáférés a DocumentDB-ben tárolt adatokhoz</value>
+  </data>
+  <data name="Plan_Subheading_Model" xml:space="preserve">
+    <value>&lt;p&gt;Szempontok az adatmodellezéshez – adatok beágyazása, adathivatkozások, hibrid adatmodellek.&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Subheading_Partition" xml:space="preserve">
+    <value>&lt;p&gt;Szempontok az adatparticionáláshoz – gyűjtemények, particionálási típusok (értékkészlet-, keresés- és hash-alapú particionálás), particionált alkalmazás fejlesztése.&lt;/p&gt;</value>
+  </data>
+  <data name="Plan_Subheading_Secure" xml:space="preserve">
+    <value>&lt;p&gt;A DocumentDB-vel kapcsolatos hozzáférés-vezérlési fogalmak áttekintése, valamint információ a mesterkulcsokról, az írásvédett kulcsokról, az erőforrás-jogkivonatokról és az engedélyekről. Kódrészleteket tartalmaz.&lt;/p&gt;</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>Előzetes verzió</value>
+  </data>
+</root>

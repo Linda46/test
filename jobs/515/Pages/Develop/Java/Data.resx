@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Section1_Heading1" xml:space="preserve">
+    <value>Data Services</value>
+  </data>
+  <data name="Section1_Heading2" xml:space="preserve">
+    <value>Fundamentals</value>
+  </data>
+  <data name="Section1_Heading3_Text1" xml:space="preserve">
+    <value>Guidance: </value>
+  </data>
+  <data name="Section1_Heading3_Text2" xml:space="preserve">
+    <value>Data Management and Business Analytics</value>
+  </data>
+  <data name="Section1_Text1" xml:space="preserve">
+    <value>Learn about the technologies in Azure that help you work with both relational and non-relational data.</value>
+  </data>
+  <data name="Section1_Heading4_Text1" xml:space="preserve">
+    <value>Guidance: </value>
+  </data>
+  <data name="Section1_Heading4_Text2" xml:space="preserve">
+    <value>Data Management: Choosing the Right Technology</value>
+  </data>
+  <data name="Section1_Text2" xml:space="preserve">
+    <value>Learn about different scenarios for data management technologies in Azure.</value>
+  </data>
+  <data name="Section1_Heading5" xml:space="preserve">
+    <value>Azure Storage</value>
+  </data>
+  <data name="Section1_Heading6_Text1" xml:space="preserve">
+    <value>Feature guide: </value>
+  </data>
+  <data name="Section1_Heading6_Text2" xml:space="preserve">
+    <value>Blob Service</value>
+  </data>
+  <data name="Section1_Text3" xml:space="preserve">
+    <value>Blobs are the simplest way to store large amounts of unstructured text or binary data such as video, audio and images. Blobs are an ISO 27001 certified managed service that can auto-scale to store up to 100 terabytes of data. They are accessible from virtually anywhere via REST and client APIs.</value>
+  </data>
+  <data name="Section1_Heading7_Text1" xml:space="preserve">
+    <value>Feature guide: </value>
+  </data>
+  <data name="Section1_Heading7_Text2" xml:space="preserve">
+    <value>Table Service</value>
+  </data>
+  <data name="Section1_Text4" xml:space="preserve">
+    <value>Tables offer NoSQL capabilities for applications that require storage of large amounts of unstructured data. Tables are an ISO 27001 certified managed service that can auto-scale to store up to 100 terabytes of data. They are accessible from virtually anywhere via REST and managed APIs.</value>
+  </data>
+  <data name="Section1_Heading8_Text1" xml:space="preserve">
+    <value>Tutorial: </value>
+  </data>
+  <data name="Section1_Heading8_Text2" xml:space="preserve">
+    <value>Create an image marketplace that uses Blob storage</value>
+  </data>
+  <data name="Section1_Text5" xml:space="preserve">
+    <value>Create an application that stores images in Azure blob storage. You will learn how to use the Azure Client Libraries for Java and how to work with Azure storage.</value>
+  </data>
+  <data name="Section1_Heading9_Text1" xml:space="preserve">
+    <value>How to: </value>
+  </data>
+  <data name="Section1_Heading9_Text2" xml:space="preserve">
+    <value>Use a custom domain with Blob storage</value>
+  </data>
+  <data name="Section1_Text6" xml:space="preserve">
+    <value>Configure your storage account to map your custom domain to your Blob service endpoint, so that users see your domain name in your application's URLs.</value>
+  </data>
+  <data name="Section1_Heading10" xml:space="preserve">
+    <value>Relational Data</value>
+  </data>
+  <data name="Section1_Heading11_Text1" xml:space="preserve">
+    <value>Feature guide: </value>
+  </data>
+  <data name="Section1_Heading11_Text2" xml:space="preserve">
+    <value>SQL Database</value>
+  </data>
+  <data name="Section1_Text7" xml:space="preserve">
+    <value>For applications that need a full featured relational database-as-a-service, Azure offers SQL Database, formerly known as SQL Azure Database. SQL Database offers a high-level of interoperability, enabling customers to build applications using many of the major development frameworks.</value>
+  </data>
+  <data name="Section1_Heading12_Text1" xml:space="preserve">
+    <value>How to: </value>
+  </data>
+  <data name="Section1_Heading12_Text2" xml:space="preserve">
+    <value>Manage Azure SQL Database using SQL Server Management Studio</value>
+  </data>
+  <data name="Section1_Text8" xml:space="preserve">
+    <value>You can use SQL Server Management Studio to manage SQL Database logical servers and databases. This article includes details about creating and managing databases, creating and managing logins, and monitoring using Dynamic Management Views.</value>
+  </data>
+  <data name="Section1_Heading13_Text1" xml:space="preserve">
+    <value>Tutorial: </value>
+  </data>
+  <data name="Section1_Heading13_Text2" xml:space="preserve">
+    <value>Migrate a Java Spring Framework Application to Azure and Azure SQL Database</value>
+  </data>
+  <data name="Section1_Text9" xml:space="preserve">
+    <value>This end-to-end tutorial demonstrates how to migrate a complete Spring Framework application (the Java Pet Clinic) to Azure, including the use of Azure SQL Database with JPA/Hibernate using the latest SQL Server JDBC drivers.</value>
+  </data>
+  <data name="Section1_Heading14_Text1" xml:space="preserve">
+    <value>Tutorial: </value>
+  </data>
+  <data name="Section1_Heading14_Text2" xml:space="preserve">
+    <value>Build a Java web application using DocumentDB</value>
+  </data>
+  <data name="Section1_Text10" xml:space="preserve">
+    <value>This tutorial shows you how to use the Azure DocumentDB service to store and access data from a Java application hosted on Azure Websites.</value>
+  </data>
+  <data name="Section1_Heading11" xml:space="preserve">
+    <value>Non-Relational Data</value>
+  </data>
+</root>

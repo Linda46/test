@@ -1,0 +1,32 @@
+﻿{
+  "schemaVersion": "3",
+  "jobId": 530,
+  "files": [
+    {
+      "fileName": "Pages/Services/MobileEngagement.resx",
+      "wordCount": 384,
+      "sha": "88f45be6129a8993124d7e1289d470f7dcba4828"
+    }
+  ],
+  "cultures": [
+    {
+      "culture": "fr-fr",
+      "status": "integrated",
+      "handBackETA": "2015-03-12T23:55",
+      "handOffDate": "2015-03-12T09:23",
+      "handBackDate": "2015-03-12T18:37",
+      "integrationDate": "2015-03-13T02:22"
+    }
+  ],
+  "generated": "2015-03-12T09:23",
+  "fileCount": 1,
+  "latest": "",
+  "branch": "master",
+  "status": "integrated",
+  "statusComment": "",
+  "handOffType": "bugfix",
+  "priority": 1,
+  "localizationType": "standard",
+  "workItems": "13001",
+  "workItemNumber": "13292"
+}

@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AzureFriday_Content" xml:space="preserve">
+    <value>&lt;p&gt;Subscribe to &lt;a href="{0}"&gt;Azure Fridays&lt;/a&gt; to learn how to build mobile apps that scale on Azure&lt;/p&gt;</value>
+  </data>
+  <data name="AzureFriday_Heading" xml:space="preserve">
+    <value>Azure Friday Series</value>
+  </data>
+  <data name="CommunicationsPlatform_Content" xml:space="preserve">
+    <value>&lt;p&gt;Azure Mobile Engagement works flawlessly with native push notification gateways such as Google’s GCM, Apple’s APNS, or Microsoft MPNS, but it goes beyond and gives you the power to create targeted campaigns, by providing intelligent customer segments and in-app messaging capabilities. 
+This benefits app developers by reaching their customers in a highly effective and non-intrusive manner.&lt;/p&gt;</value>
+  </data>
+  <data name="CommunicationsPlatform_Heading" xml:space="preserve">
+    <value>Value-added push and communications platform</value>
+  </data>
+  <data name="DataProtection_Content" xml:space="preserve">
+    <value>&lt;p&gt;Microsoft has a longstanding commitment to privacy, which is an integral part of our product and service lifecycle. We work to be transparent in our privacy practices, offering customers meaningful privacy choices, and manage responsibly of the data we store. As with all Azure services, Mobile Engagement does not share or sell information derived from customers’ property. Azure Mobile Engagement is a globally deployable solution, allowing for regional or country specific data privacy laws to be upheld.&lt;/p&gt;</value>
+  </data>
+  <data name="DataProtection_Heading" xml:space="preserve">
+    <value>Data protection and privacy across the globe</value>
+  </data>
+  <data name="GetStarted_CTA" xml:space="preserve">
+    <value>Get started</value>
+  </data>
+  <data name="GetStarted_Heading" xml:space="preserve">
+    <value>Get started with Mobile Engagement</value>
+  </data>
+  <data name="Hero_CTA" xml:space="preserve">
+    <value>Get started</value>
+  </data>
+  <data name="Hero_List1" xml:space="preserve">
+    <value>&lt;li&gt;Understand users by behavior and usage path in app&lt;/li&gt;
+&lt;li&gt;Single dashboard to measure and act on analytics in real time&lt;/li&gt;
+&lt;li&gt;Personalize app experience based on user segments&lt;/li&gt;</value>
+  </data>
+  <data name="Hero_List2" xml:space="preserve">
+    <value>&lt;li&gt;Simplify cross-platform campaign management&lt;/li&gt;
+&lt;li&gt;Maximize conversions and app monetization&lt;/li&gt;
+&lt;li&gt;Flexible API to easily import &amp;export data&lt;/li&gt;</value>
+  </data>
+  <data name="Hero_Subheading" xml:space="preserve">
+    <value>Drive app performance through real-time, data-driven management</value>
+  </data>
+  <data name="IncreaseAppUsage_Content" xml:space="preserve">
+    <value>&lt;p&gt;Trigger engagement scenarios according to app user behavior and demographics by combining big data collection with real-time processing. Azure Mobile Engagement can answer nearly any question relevant to your particular business needs. For example, you can create custom dashboards to measure KPIs, rapidly find and fix usage bottlenecks in the user path, track retention and stickiness, and by that determine what campaigns are driving the highest ROI. Azure Mobile Engagement’s 360° user path view allows you to easily and continually enhance and optimize the user experience – driving higher retention rates and increased app usage.&lt;/p&gt;</value>
+  </data>
+  <data name="IncreaseAppUsage_Heading" xml:space="preserve">
+    <value>Real-time actionable analytics to increase app usage</value>
+  </data>
+  <data name="LearnMore_Heading" xml:space="preserve">
+    <value>Learn More</value>
+  </data>
+  <data name="LearnMore_Link1" xml:space="preserve">
+    <value>Mobile Engagement pricing</value>
+  </data>
+  <data name="LearnMore_Link2" xml:space="preserve">
+    <value>Mobile Engagement documentation</value>
+  </data>
+  <data name="LearnMore_VisitDocumentationCenter" xml:space="preserve">
+    <value>Visit our documentation center</value>
+  </data>
+  <data name="META_DESCRIPTION" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_KEYWORDS" xml:space="preserve">
+    <value />
+  </data>
+  <data name="META_PAGETITLE" xml:space="preserve">
+    <value>Mobile Engagement</value>
+  </data>
+  <data name="OpenAPIs_Content" xml:space="preserve">
+    <value>&lt;p&gt;By providing open APIs and ease of integration you can leverage existing data from CRM, CMS, and other business related systems. This allows you to further improve your audience targeting and protect your investments.&lt;/p&gt;</value>
+  </data>
+  <data name="OpenAPIs_Heading" xml:space="preserve">
+    <value>Open APIs and ease of integration</value>
+  </data>
+  <data name="RelatedServices_Heading" xml:space="preserve">
+    <value>Related Services</value>
+  </data>
+</root>
